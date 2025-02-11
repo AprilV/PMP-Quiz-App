@@ -1,0 +1,85 @@
+/* Navbar */
+.navbar {
+    background-color: #541771; /* Purple theme */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it stays on top */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .nav-link {
+    color: rgb(250, 245, 245); /* White */
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", Arial, sans-serif;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffeb3b; /* Yellow on hover */
+  }
+  
+  body {
+    background-color: #aa86bb; /* Matches the purple theme */
+    color: black; /* Light text for readability */
+    margin: 0;
+    padding: 0;
+    font-family: "Franklin Gothic Medium", Arial, sans-serif;
+    background-image: url("../images/pmbackground2.webp"); /* Optional: Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #541771;
+    color: rgb(250, 245, 245);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 0.8rem;
+    font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  }
+  
+  /* Page Title and Content */
+  .page-title {
+    font-size: 2.5rem;
+    color: #541771;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  
+  /* Content Box */
+.content {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 20px;
+    margin: 120px auto; /* Adjust margin for spacing below navbar */
+    border-radius: 10px;
+    max-width: 800px; /* Adjust width to fit neatly */
+    text-align: left; /* Align text to the left */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow */
+    border: 2px solid #541771; /* Purple border for consistency */
+  }
+  .content a {
+    color: #541771; /* Purple theme for links */
+    font-weight: bold; /* Make links more visible */
+    text-decoration: none;
+  }
+
+  .content a:hover {
+    text-decoration: underline;
+    color: #3700b3; /* Darker purple on hover */
+  }

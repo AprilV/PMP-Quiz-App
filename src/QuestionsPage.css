@@ -1,0 +1,291 @@
+/* Container for the quiz */
+.questions-container {
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff; /* Pure white background */
+  border-radius: 12px; /* Smoother rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Deeper shadow for a modern look */
+  border: 1px solid #e0e0e0; /* Subtle border for definition */
+}
+
+/* Header for the quiz */
+.questions-container h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #6a1b9a; /* Purple for the header */
+  text-align: center;
+}
+
+/* Progress bar container */
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+/* Progress bar fill */
+.progress {
+  height: 10px;
+  background-color: #6a1b9a; /* Purple for progress */
+  border-radius: 8px;
+  transition: width 0.3s ease; /* Smooth transition for progress */
+}
+
+/* Question text */
+.question-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #000000; /* Pure black for better readability */
+  line-height: 1.5;
+}
+
+/* List of options */
+.options-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Individual option */
+.options-list li {
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid #e0e0e0; /* Light border for options */
+  border-radius: 8px; /* Rounded corners for options */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  background-color: #f8f9fa; /* Light gray background for options */
+  color: #000000; /* Black text for options */
+}
+
+/* Hover effect for options */
+.options-list li:hover:not(.disabled) {
+  background-color: #e9ecef; /* Slightly darker gray on hover */
+  transform: translateY(-2px); /* Lift the option slightly on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+/* Selected option */
+.options-list li.selected {
+  background-color: #ab47bc; /* Purple background for selected option */
+  color: #ffffff; /* White text for selected option */
+  border-color: #ab47bc;
+}
+
+/* Correct option */
+.options-list li.correct {
+  background-color: #81c784; /* Green background for correct option */
+  color: #ffffff; /* White text for correct option */
+  border-color: #81c784;
+}
+
+/* Incorrect option */
+.options-list li.incorrect {
+  background-color: #e57373; /* Red background for incorrect option */
+  color: #ffffff; /* White text for incorrect option */
+  border-color: #e57373;
+}
+
+/* Disabled option */
+.options-list li.disabled {
+  pointer-events: none; /* Disable pointer events */
+  opacity: 0.7; /* Reduce opacity for disabled state */
+}
+
+/* Feedback message for correct/incorrect answers */
+.answer-feedback {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 20px;
+  text-align: center;
+  animation: fadeIn 0.5s ease; /* Fade-in animation for feedback */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.answer-feedback.correct {
+  color: #2e7d32; /* Green for correct feedback */
+}
+
+.answer-feedback.incorrect {
+  color: #c62828; /* Red for incorrect feedback */
+}
+
+/* Answer and explanation text */
+.answer-text,
+.explanation-text {
+  margin-top: 25px;
+  color: #333333; /* Dark gray for secondary text */
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.answer-text strong,
+.explanation-text strong {
+  color: #000000; /* Black for bold text */
+}
+
+/* Quiz navigation buttons */
+.quiz-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 10px; /* Space between buttons */
+}
+
+/* Individual button */
+.quiz-buttons button {
+  padding: 12px 24px;
+  cursor: pointer;
+  border: none;
+  background-color: #6a1b9a; /* Purple background for buttons */
+  color: #ffffff; /* White text for buttons */
+  border-radius: 8px; /* Rounded corners for buttons */
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for buttons */
+.quiz-buttons button:hover {
+  background-color: #4a148c; /* Darker purple on hover */
+  transform: translateY(-2px); /* Lift the button slightly on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+/* Skip button styling */
+.quiz-buttons button.skip {
+  background-color: #ff9800; /* Orange for skip button */
+}
+
+.quiz-buttons button.skip:hover {
+  background-color: #f57c00; /* Darker orange on hover */
+}
+
+/* Disabled state for buttons */
+.quiz-buttons button:disabled {
+  background-color: #cccccc; /* Gray background for disabled buttons */
+  color: #666666; /* Dark gray text for disabled buttons */
+  cursor: not-allowed;
+  transform: none; /* Disable hover effect for disabled buttons */
+  box-shadow: none; /* Remove shadow for disabled buttons */
+}
+
+/* Score container */
+.score-container {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #6a1b9a; /* Purple for score text */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .questions-container {
+    padding: 20px;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+  }
+
+  .question-text {
+    font-size: 1.3rem;
+  }
+
+  .options-list li {
+    padding: 12px;
+  }
+
+  .quiz-buttons button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .score-container {
+    font-size: 1rem;
+  }
+  
+}
+
+/* 🎯 Quiz Over - Center Everything */
+.quiz-over {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* ✅ Takes full screen height */
+  text-align: center;
+  background: transparent; /* ✅ Removes background issues */
+}
+
+/* Score Card - Single Centered Box */
+.quiz-over-card {
+  background: whitesmoke; /* ✅ Glassmorphism */
+  padding: 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(12px); /* ✅ Smooth blur */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Centering Text & Buttons */
+.quiz-over-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6a1b9a; /* ✅ Matches quiz */
+  margin-bottom: 15px;
+}
+
+.quiz-over-score {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #f5b906; /* ✅ Gold highlight */
+  animation: scorePop 1s ease-in-out;
+}
+
+/* Fixing Button Alignment */
+.quiz-over-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Match Button Styling */
+.try-again-button {
+  background: #6a1b9a; /* ✅ Matches quiz buttons */
+  color: #ffffff;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.try-again-button:hover {
+  background: #4a148c; /* ✅ Hover effect */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Score Pop Animation */
+@keyframes scorePop {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
