@@ -1,7 +1,7 @@
 [
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which of the following best defines the primary objective of project scope management?",
     "options": [
@@ -13,12 +13,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Project scope management focuses on defining and controlling what is and isn’t included in the project.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "You’re tasked with defining a project’s deliverables and exclusions. What is the most appropriate scope management process to use?",
     "options": [
@@ -30,12 +30,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Scope Definition involves detailing the project deliverables and establishing boundaries, ensuring clarity on what is included and excluded.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "In a situation where stakeholders continuously request additional features, which scope management technique should you employ?",
     "options": [
@@ -47,7 +47,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Using strict change control helps prevent scope creep by formally reviewing and approving any changes to the project scope.",
     "source": "ChatGPT"
   },
   {
@@ -64,7 +64,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Cost management involves planning, estimating, budgeting, and controlling costs to ensure the project stays within budget.",
     "source": "ChatGPT"
   },
   {
@@ -81,7 +81,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Cost Control is used to monitor and regulate the project budget, handling any variances or unexpected expenses.",
     "source": "ChatGPT"
   },
   {
@@ -98,7 +98,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Understanding the reasons behind a cost variance is essential before deciding on corrective actions.",
     "source": "ChatGPT"
   },
   {
@@ -115,7 +115,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Activity Sequencing is the process of determining the order of activities to ensure the project schedule is logical and efficient.",
     "source": "ChatGPT"
   },
   {
@@ -132,7 +132,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Techniques like crashing or fast tracking help shorten the project schedule without altering the project scope.",
     "source": "ChatGPT"
   },
   {
@@ -149,7 +149,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Analogous estimating uses historical data from similar projects to predict the duration of current project tasks.",
     "source": "ChatGPT"
   },
   {
@@ -166,7 +166,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quality management ensures that the project deliverables are fit for purpose and meet the agreed-upon standards.",
     "source": "ChatGPT"
   },
   {
@@ -183,7 +183,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Quality Control involves monitoring specific project results to determine if they comply with relevant quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -200,7 +200,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Reviewing the plan and applying corrective actions ensures that the deliverables meet quality requirements without derailing the project.",
     "source": "ChatGPT"
   },
   {
@@ -217,7 +217,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Risk management involves proactively identifying potential risks and taking steps to minimize their impact on the project.",
     "source": "ChatGPT"
   },
   {
@@ -234,7 +234,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Updating the risk register and assessing the risk’s impact ensures that the team can develop an appropriate response plan.",
     "source": "ChatGPT"
   },
   {
@@ -251,7 +251,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Procurement management focuses on obtaining products, services, or works from outside the organization.",
     "source": "ChatGPT"
   },
   {
@@ -268,7 +268,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Reviewing the contract and negotiating a solution helps manage supplier issues without causing project disruption.",
     "source": "ChatGPT"
   },
   {
@@ -285,7 +285,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Communication management is all about ensuring that the right information is delivered to the right people at the right time.",
     "source": "ChatGPT"
   },
   {
@@ -302,7 +302,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Adjusting the communication plan ensures all team members and stakeholders receive the necessary information.",
     "source": "ChatGPT"
   },
   {
@@ -319,7 +319,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Stakeholder management focuses on identifying, engaging, and communicating with stakeholders to ensure their needs and expectations are met.",
     "source": "ChatGPT"
   },
   {
@@ -336,12 +336,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Bringing stakeholders together to openly discuss their concerns promotes alignment and better project outcomes.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which document is most critical for outlining a project's boundaries and deliverables?",
     "options": [
@@ -353,12 +353,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Scope Statement clearly defines the project’s deliverables, boundaries, and acceptance criteria, making it essential for scope management.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "A project manager faces continuous additions to project requirements. Which technique is most effective to control this?",
     "options": [
@@ -370,12 +370,12 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A formal change control process helps manage scope creep by ensuring all new requests are evaluated, approved, and documented.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "What is the significance of creating a Work Breakdown Structure (WBS) in scope management?",
     "options": [
@@ -387,7 +387,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The WBS is a key tool that decomposes the project into smaller, manageable components, facilitating better planning and control.",
     "source": "ChatGPT"
   },
   {
@@ -404,7 +404,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "EVM integrates cost, schedule, and scope to help project managers assess performance and predict future project performance.",
     "source": "ChatGPT"
   },
   {
@@ -421,7 +421,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Cost Control involves monitoring expenditures, analyzing variances, and taking corrective actions to keep the project on budget.",
     "source": "ChatGPT"
   },
   {
@@ -438,7 +438,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Analogous estimating relies on historical data and expert judgment from similar projects to estimate current project costs quickly.",
     "source": "ChatGPT"
   },
   {
@@ -455,7 +455,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A Network Diagram illustrates the logical sequence of activities and helps identify dependencies and potential scheduling constraints.",
     "source": "ChatGPT"
   },
   {
@@ -472,7 +472,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Fast Tracking involves overlapping tasks that were originally planned to be done sequentially, potentially shortening the overall project duration.",
     "source": "ChatGPT"
   },
   {
@@ -489,7 +489,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Milestones mark significant points in the project timeline, helping track progress and facilitating decision-making.",
     "source": "ChatGPT"
   },
   {
@@ -506,7 +506,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quality Assurance focuses on auditing and reviewing processes to ensure that quality standards are being followed throughout the project.",
     "source": "ChatGPT"
   },
   {
@@ -523,7 +523,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A quality management plan outlines the quality standards, procedures, and metrics to be used to assess project deliverables.",
     "source": "ChatGPT"
   },
   {
@@ -540,7 +540,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Regular quality reviews coupled with feedback loops help identify improvement areas, ensuring that project processes evolve positively.",
     "source": "ChatGPT"
   },
   {
@@ -557,7 +557,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A Risk Matrix helps assess the probability and impact of risks, allowing project managers to prioritize which risks require immediate attention.",
     "source": "ChatGPT"
   },
   {
@@ -574,7 +574,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Once a risk event occurs, executing the pre-planned risk response ensures that its impact is managed and mitigated promptly.",
     "source": "ChatGPT"
   },
   {
@@ -591,7 +591,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A procurement management plan details the processes for acquiring external resources, ensuring that procurement is systematic and aligned with project objectives.",
     "source": "ChatGPT"
   },
   {
@@ -608,7 +608,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A vendor’s reputation and historical performance are critical indicators of their ability to deliver quality goods or services on time.",
     "source": "ChatGPT"
   },
   {
@@ -625,7 +625,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A solid communication management plan ensures that all stakeholders receive accurate and timely information, which is crucial for project success.",
     "source": "ChatGPT"
   },
   {
@@ -642,7 +642,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Having a backup communication plan ensures continuity and prevents critical information from being lost during disruptions.",
     "source": "ChatGPT"
   },
   {
@@ -659,7 +659,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Analysis helps identify, categorize, and understand the influence of various stakeholders, ensuring they are appropriately managed throughout the project.",
     "source": "ChatGPT"
   },
   {
@@ -676,12 +676,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "FacilitatingF a discussion among stakeholders helps resolve conflicts and align expectations, ensuring project objectives are met.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "What is a primary advantage of using a detailed Work Breakdown Structure (WBS) in project planning?",
     "options": [
@@ -693,12 +693,12 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A detailed WBS clarifies all deliverables and tasks, facilitating better planning, tracking, and management of project scope.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "In a scenario where the project scope is unclear, which action should a project manager take first?",
     "options": [
@@ -710,12 +710,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Gathering detailed requirements helps clarify the project scope and sets a foundation for planning and control.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which method is most effective for validating the project scope with stakeholders?",
     "options": [
@@ -727,7 +727,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Frequent reviews and acceptance meetings ensure that all stakeholders agree on the scope and any changes throughout the project.",
     "source": "ChatGPT"
   },
   {
@@ -744,7 +744,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Analogous estimating relies on historical data and expert judgment, making it useful in the early phases when detailed information is scarce.",
     "source": "ChatGPT"
   },
   {
@@ -761,7 +761,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Understanding why the budget is exceeded helps determine corrective actions to bring the project back in line with the budget.",
     "source": "ChatGPT"
   },
   {
@@ -778,7 +778,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Cost Management Plan defines how project costs will be planned, managed, and controlled, serving as the baseline for tracking expenses.",
     "source": "ChatGPT"
   },
   {
@@ -795,7 +795,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Crashing is a schedule compression technique that involves adding extra resources to critical tasks in order to shorten the overall project duration.",
     "source": "ChatGPT"
   },
   {
@@ -812,7 +812,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "The Activity List details all tasks required for the project, serving as a foundation for developing an accurate schedule.",
     "source": "ChatGPT"
   },
   {
@@ -829,7 +829,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Critical Path Method identifies tasks that directly impact the project’s finish date, enabling targeted schedule management.",
     "source": "ChatGPT"
   },
   {
@@ -846,7 +846,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quality control focuses on monitoring and measuring project deliverables to ensure they meet the defined quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -863,7 +863,7 @@
     "answers": [
       3
     ],
-    "explanation": null,
+    "explanation": "Quality Improvement is an ongoing process aimed at continuously enhancing project processes and deliverables throughout the project lifecycle.",
     "source": "ChatGPT"
   },
   {
@@ -880,7 +880,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Reassessing the quality management plan and taking corrective actions helps resolve recurring issues and improve overall quality.",
     "source": "ChatGPT"
   },
   {
@@ -897,7 +897,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Risk Analysis involves evaluating risks to prioritize them, ensuring that the most significant threats are addressed first.",
     "source": "ChatGPT"
   },
   {
@@ -914,7 +914,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "High-impact, high-probability risks require immediate attention with a detailed response plan to mitigate or avoid negative outcomes.",
     "source": "ChatGPT"
   },
   {
@@ -931,7 +931,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Procurement SOW details the work required from vendors, serving as a foundational document for managing external procurement.",
     "source": "ChatGPT"
   },
   {
@@ -948,7 +948,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Requesting further clarification helps determine if the proposal can be improved to meet the project’s requirements, rather than making an immediate rejection.",
     "source": "ChatGPT"
   },
   {
@@ -965,7 +965,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A communication plan outlines how and when information is shared, which is critical for keeping stakeholders informed and aligned.",
     "source": "ChatGPT"
   },
   {
@@ -982,7 +982,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Adjusting the communication strategy helps address gaps and ensures clarity, improving overall stakeholder understanding.",
     "source": "ChatGPT"
   },
   {
@@ -999,7 +999,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Identifying stakeholders and understanding their interests is the first step in ensuring effective stakeholder management.",
     "source": "ChatGPT"
   },
   {
@@ -1016,12 +1016,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A facilitated meeting allows stakeholders to express concerns and work collaboratively toward a resolution, maintaining project momentum.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which of the following best defines the primary objective of project scope management?",
     "options": [
@@ -1033,12 +1033,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Project scope management focuses on defining and controlling what is and isn’t included in the project.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "You’re tasked with defining a project’s deliverables and exclusions. What is the most appropriate scope management process to use?",
     "options": [
@@ -1050,12 +1050,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Scope Definition involves detailing the project deliverables and establishing boundaries, ensuring clarity on what is included and excluded.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "In a situation where stakeholders continuously request additional features, which scope management technique should you employ?",
     "options": [
@@ -1067,7 +1067,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Using strict change control helps prevent scope creep by formally reviewing and approving any changes to the project scope.",
     "source": "ChatGPT"
   },
   {
@@ -1084,7 +1084,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Cost management involves planning, estimating, budgeting, and controlling costs to ensure the project stays within budget.",
     "source": "ChatGPT"
   },
   {
@@ -1101,7 +1101,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Cost Control is used to monitor and regulate the project budget, handling any variances or unexpected expenses.",
     "source": "ChatGPT"
   },
   {
@@ -1118,7 +1118,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Understanding the reasons behind a cost variance is essential before deciding on corrective actions.",
     "source": "ChatGPT"
   },
   {
@@ -1135,7 +1135,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Activity Sequencing is the process of determining the order of activities to ensure the project schedule is logical and efficient.",
     "source": "ChatGPT"
   },
   {
@@ -1152,7 +1152,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Techniques like crashing or fast tracking help shorten the project schedule without altering the project scope.",
     "source": "ChatGPT"
   },
   {
@@ -1169,7 +1169,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Analogous estimating uses historical data from similar projects to predict the duration of current project tasks.",
     "source": "ChatGPT"
   },
   {
@@ -1186,7 +1186,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quality management ensures that the project deliverables are fit for purpose and meet the agreed-upon standards.",
     "source": "ChatGPT"
   },
   {
@@ -1203,7 +1203,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Quality Control involves monitoring specific project results to determine if they comply with relevant quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -1220,7 +1220,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Reviewing the plan and applying corrective actions ensures that the deliverables meet quality requirements without derailing the project.",
     "source": "ChatGPT"
   },
   {
@@ -1237,7 +1237,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Risk management involves proactively identifying potential risks and taking steps to minimize their impact on the project.",
     "source": "ChatGPT"
   },
   {
@@ -1254,7 +1254,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Updating the risk register and assessing the risk’s impact ensures that the team can develop an appropriate response plan.",
     "source": "ChatGPT"
   },
   {
@@ -1271,7 +1271,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Procurement management focuses on obtaining products, services, or works from outside the organization.",
     "source": "ChatGPT"
   },
   {
@@ -1288,7 +1288,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Reviewing the contract and negotiating a solution helps manage supplier issues without causing project disruption.",
     "source": "ChatGPT"
   },
   {
@@ -1305,7 +1305,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Communication management is all about ensuring that the right information is delivered to the right people at the right time.",
     "source": "ChatGPT"
   },
   {
@@ -1322,7 +1322,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Adjusting the communication plan ensures all team members and stakeholders receive the necessary information.",
     "source": "ChatGPT"
   },
   {
@@ -1339,7 +1339,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Stakeholder management focuses on identifying, engaging, and communicating with stakeholders to ensure their needs and expectations are met.",
     "source": "ChatGPT"
   },
   {
@@ -1356,12 +1356,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Bringing stakeholders together to openly discuss their concerns promotes alignment and better project outcomes.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which document is most critical for outlining a project's boundaries and deliverables?",
     "options": [
@@ -1373,12 +1373,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Scope Statement clearly defines the project’s deliverables, boundaries, and acceptance criteria, making it essential for scope management.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "A project manager faces continuous additions to project requirements. Which technique is most effective to control this?",
     "options": [
@@ -1390,12 +1390,12 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A formal change control process helps manage scope creep by ensuring all new requests are evaluated, approved, and documented.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "What is the significance of creating a Work Breakdown Structure (WBS) in scope management?",
     "options": [
@@ -1407,7 +1407,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The WBS is a key tool that decomposes the project into smaller, manageable components, facilitating better planning and control.",
     "source": "ChatGPT"
   },
   {
@@ -1424,7 +1424,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "EVM integrates cost, schedule, and scope to help project managers assess performance and predict future project performance.",
     "source": "ChatGPT"
   },
   {
@@ -1441,7 +1441,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Cost Control involves monitoring expenditures, analyzing variances, and taking corrective actions to keep the project on budget.",
     "source": "ChatGPT"
   },
   {
@@ -1458,7 +1458,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Analogous estimating relies on historical data and expert judgment from similar projects to estimate current project costs quickly.",
     "source": "ChatGPT"
   },
   {
@@ -1475,7 +1475,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A Network Diagram illustrates the logical sequence of activities and helps identify dependencies and potential scheduling constraints.",
     "source": "ChatGPT"
   },
   {
@@ -1492,7 +1492,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Fast Tracking involves overlapping tasks that were originally planned to be done sequentially, potentially shortening the overall project duration.",
     "source": "ChatGPT"
   },
   {
@@ -1509,7 +1509,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Milestones mark significant points in the project timeline, helping track progress and facilitating decision-making.",
     "source": "ChatGPT"
   },
   {
@@ -1526,7 +1526,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quality Assurance focuses on auditing and reviewing processes to ensure that quality standards are being followed throughout the project.",
     "source": "ChatGPT"
   },
   {
@@ -1543,7 +1543,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A quality management plan outlines the quality standards, procedures, and metrics to be used to assess project deliverables.",
     "source": "ChatGPT"
   },
   {
@@ -1560,7 +1560,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Regular quality reviews coupled with feedback loops help identify improvement areas, ensuring that project processes evolve positively.",
     "source": "ChatGPT"
   },
   {
@@ -1577,7 +1577,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A Risk Matrix helps assess the probability and impact of risks, allowing project managers to prioritize which risks require immediate attention.",
     "source": "ChatGPT"
   },
   {
@@ -1594,7 +1594,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Once a risk event occurs, executing the pre-planned risk response ensures that its impact is managed and mitigated promptly.",
     "source": "ChatGPT"
   },
   {
@@ -1611,7 +1611,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A procurement management plan details the processes for acquiring external resources, ensuring that procurement is systematic and aligned with project objectives.",
     "source": "ChatGPT"
   },
   {
@@ -1628,7 +1628,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A vendors reputation and historical performance are critical indicators of their ability to deliver quality goods or services on time.",
     "source": "ChatGPT"
   },
   {
@@ -1645,7 +1645,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A solid communication management plan ensures that all stakeholders receive accurate and timely information, which is crucial for project success.",
     "source": "ChatGPT"
   },
   {
@@ -1662,7 +1662,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Having a backup communication plan ensures continuity and prevents critical information from being lost during disruptions.",
     "source": "ChatGPT"
   },
   {
@@ -1679,7 +1679,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Analysis helps identify, categorize, and understand the influence of various stakeholders, ensuring they are appropriately managed throughout the project.",
     "source": "ChatGPT"
   },
   {
@@ -1696,12 +1696,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Facilitating a discussion among stakeholders helps resolve conflicts and align expectations, ensuring project objectives are met.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "What is a primary advantage of using a detailed Work Breakdown Structure (WBS) in project planning?",
     "options": [
@@ -1713,12 +1713,12 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A detailed WBS clarifies all deliverables and tasks, facilitating better planning, tracking, and management of project scope.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "In a scenario where the project scope is unclear, which action should a project manager take first?",
     "options": [
@@ -1730,12 +1730,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Gathering detailed requirements helps clarify the project scope and sets a foundation for planning and control.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which method is most effective for validating the project scope with stakeholders?",
     "options": [
@@ -1747,7 +1747,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Frequent reviews and acceptance meetings ensure that all stakeholders agree on the scope and any changes throughout the project.",
     "source": "ChatGPT"
   },
   {
@@ -1764,7 +1764,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Analogous estimating relies on historical data and expert judgment, making it useful in the early phases when detailed information is scarce.",
     "source": "ChatGPT"
   },
   {
@@ -1781,7 +1781,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Understanding why the budget is exceeded helps determine corrective actions to bring the project back in line with the budget.",
     "source": "ChatGPT"
   },
   {
@@ -1798,7 +1798,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Cost Management Plan defines how project costs will be planned, managed, and controlled, serving as the baseline for tracking expenses.",
     "source": "ChatGPT"
   },
   {
@@ -1815,7 +1815,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Crashing is a schedule compression technique that involves adding extra resources to critical tasks in order to shorten the overall project duration.",
     "source": "ChatGPT"
   },
   {
@@ -1832,7 +1832,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "The Activity List details all tasks required for the project, serving as a foundation for developing an accurate schedule.",
     "source": "ChatGPT"
   },
   {
@@ -1849,7 +1849,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Critical Path Method identifies tasks that directly impact the project’s finish date, enabling targeted schedule management.",
     "source": "ChatGPT"
   },
   {
@@ -1866,7 +1866,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quality control focuses on monitoring and measuring project deliverables to ensure they meet the defined quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -1883,7 +1883,7 @@
     "answers": [
       3
     ],
-    "explanation": null,
+    "explanation": "Quality Improvement is an ongoing process aimed at continuously enhancing project processes and deliverables throughout the project lifecycle.",
     "source": "ChatGPT"
   },
   {
@@ -1900,7 +1900,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Reassessing the quality management plan and taking corrective actions helps resolve recurring issues and improve overall quality.",
     "source": "ChatGPT"
   },
   {
@@ -1917,7 +1917,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Risk Analysis involves evaluating risks to prioritize them, ensuring that the most significant threats are addressed first.",
     "source": "ChatGPT"
   },
   {
@@ -1934,7 +1934,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "High-impact, high-probability risks require immediate attention with a detailed response plan to mitigate or avoid negative outcomes.",
     "source": "ChatGPT"
   },
   {
@@ -1951,7 +1951,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Procurement SOW details the work required from vendors, serving as a foundational document for managing external procurement.",
     "source": "ChatGPT"
   },
   {
@@ -1968,7 +1968,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Requesting further clarification helps determine if the proposal can be improved to meet the project’s requirements, rather than making an immediate rejection.",
     "source": "ChatGPT"
   },
   {
@@ -1985,7 +1985,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A communication plan outlines how and when information is shared, which is critical for keeping stakeholders informed and aligned.",
     "source": "ChatGPT"
   },
   {
@@ -2002,7 +2002,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Adjusting the communication strategy helps address gaps and ensures clarity, improving overall stakeholder understanding.",
     "source": "ChatGPT"
   },
   {
@@ -2019,7 +2019,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Identifying stakeholders and understanding their interests is the first step in ensuring effective stakeholder management.",
     "source": "ChatGPT"
   },
   {
@@ -2036,12 +2036,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A facilitated meeting allows stakeholders to express concerns and work collaboratively toward a resolution, maintaining project momentum.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "When initiating a project, which document primarily defines the project's boundaries and deliverables?",
     "options": [
@@ -2053,12 +2053,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Scope Statement clearly defines what is included in the project, helping to set boundaries and expectations.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "In a project where frequent changes are requested, which process is critical to manage these changes effectively?",
     "options": [
@@ -2070,12 +2070,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A formal change control process ensures that all scope changes are reviewed, approved, and documented, preventing scope creep.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "What technique is used to visually break down a project’s deliverables into smaller components?",
     "options": [
@@ -2087,7 +2087,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A WBS is a hierarchical decomposition of the project deliverables, making it easier to plan and manage the work.",
     "source": "ChatGPT"
   },
   {
@@ -2104,7 +2104,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Establishing a cost baseline is essential for measuring and controlling project expenditures throughout the project lifecycle.",
     "source": "ChatGPT"
   },
   {
@@ -2121,7 +2121,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Three-Point Estimating considers optimistic, pessimistic, and most likely scenarios to calculate an expected cost.",
     "source": "ChatGPT"
   },
   {
@@ -2138,7 +2138,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Understanding the reasons behind a cost overrun allows the project team to take corrective action without unnecessary disruptions.",
     "source": "ChatGPT"
   },
   {
@@ -2155,7 +2155,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "CPM identifies the longest path of scheduled tasks, determining the minimum project duration and critical activities.",
     "source": "ChatGPT"
   },
   {
@@ -2172,7 +2172,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Fast Tracking involves overlapping tasks to reduce the overall project duration, though it may increase risk.",
     "source": "ChatGPT"
   },
   {
@@ -2189,7 +2189,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Activity List details all tasks to be performed, serving as a core input for scheduling activities.",
     "source": "ChatGPT"
   },
   {
@@ -2206,7 +2206,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Quality planning involves determining quality standards and how to achieve them, ensuring deliverables satisfy stakeholder needs.",
     "source": "ChatGPT"
   },
   {
@@ -2223,7 +2223,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A Cause-and-Effect Diagram, also known as a fishbone diagram, helps identify potential causes of quality issues.",
     "source": "ChatGPT"
   },
   {
@@ -2240,7 +2240,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Reviewing and refining the quality management plan helps address recurring issues and improve deliverable quality.",
     "source": "ChatGPT"
   },
   {
@@ -2257,7 +2257,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Risk Identification is the process of listing potential risks and setting the stage for further analysis and planning.",
     "source": "ChatGPT"
   },
   {
@@ -2274,7 +2274,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Immediate implementation of a risk response minimizes the impact of high-risk events on project outcomes.",
     "source": "ChatGPT"
   },
   {
@@ -2291,7 +2291,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Procurement Planning defines how and when to acquire external resources, aligning vendor management with project needs.",
     "source": "ChatGPT"
   },
   {
@@ -2308,7 +2308,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Reviewing vendor performance and contractual terms helps determine the appropriate corrective actions while minimizing disruptions.",
     "source": "ChatGPT"
   },
   {
@@ -2325,7 +2325,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A communication management plan outlines how, when, and to whom project information is distributed, ensuring timely updates.",
     "source": "ChatGPT"
   },
   {
@@ -2342,7 +2342,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Evaluating and modifying communication methods can resolve miscommunication issues and improve overall information flow.",
     "source": "ChatGPT"
   },
   {
@@ -2359,7 +2359,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Mapping visually categorizes stakeholders by their influence and interest, facilitating targeted engagement strategies.",
     "source": "ChatGPT"
   },
   {
@@ -2376,12 +2376,12 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Keeping the stakeholder register current and informing the team ensures that changes in expectations are managed proactively.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "When initiating a project, which document primarily defines the project's boundaries and deliverables?",
     "options": [
@@ -2393,12 +2393,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Scope Statement clearly defines what is included in the project, helping to set boundaries and expectations.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "In a project where frequent changes are requested, which process is critical to manage these changes effectively?",
     "options": [
@@ -2410,12 +2410,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A formal change control process ensures that all scope changes are reviewed, approved, and documented, preventing scope creep.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "What technique is used to visually break down a project’s deliverables into smaller components?",
     "options": [
@@ -2427,7 +2427,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A WBS is a hierarchical decomposition of the project deliverables, making it easier to plan and manage the work.",
     "source": "ChatGPT"
   },
   {
@@ -2444,7 +2444,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Establishing a cost baseline is essential for measuring and controlling project expenditures throughout the project lifecycle.",
     "source": "ChatGPT"
   },
   {
@@ -2461,7 +2461,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Three-Point Estimating considers optimistic, pessimistic, and most likely scenarios to calculate an expected cost.",
     "source": "ChatGPT"
   },
   {
@@ -2478,7 +2478,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Understanding the reasons behind a cost overrun allows the project team to take corrective action without unnecessary disruptions.",
     "source": "ChatGPT"
   },
   {
@@ -2495,7 +2495,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "CPM identifies the longest path of scheduled tasks, determining the minimum project duration and critical activities.",
     "source": "ChatGPT"
   },
   {
@@ -2512,7 +2512,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Fast Tracking involves overlapping tasks to reduce the overall project duration, though it may increase risk.",
     "source": "ChatGPT"
   },
   {
@@ -2529,7 +2529,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Activity List details all tasks to be performed, serving as a core input for scheduling activities.",
     "source": "ChatGPT"
   },
   {
@@ -2546,7 +2546,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Quality planning involves determining quality standards and how to achieve them, ensuring deliverables satisfy stakeholder needs.",
     "source": "ChatGPT"
   },
   {
@@ -2563,7 +2563,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A Cause-and-Effect Diagram, also known as a fishbone diagram, helps identify potential causes of quality issues.",
     "source": "ChatGPT"
   },
   {
@@ -2580,7 +2580,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Reviewing and refining the quality management plan helps address recurring issues and improve deliverable quality.",
     "source": "ChatGPT"
   },
   {
@@ -2597,7 +2597,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Risk Identification is the process of listing potential risks and setting the stage for further analysis and planning.",
     "source": "ChatGPT"
   },
   {
@@ -2614,7 +2614,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Immediate implementation of a risk response minimizes the impact of high-risk events on project outcomes.",
     "source": "ChatGPT"
   },
   {
@@ -2631,7 +2631,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Procurement Planning defines how and when to acquire external resources, aligning vendor management with project needs.",
     "source": "ChatGPT"
   },
   {
@@ -2648,7 +2648,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Reviewing vendor performance and contractual terms helps determine the appropriate corrective actions while minimizing disruptions.",
     "source": "ChatGPT"
   },
   {
@@ -2665,7 +2665,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A communication management plan outlines how, when, and to whom project information is distributed, ensuring timely updates.",
     "source": "ChatGPT"
   },
   {
@@ -2682,7 +2682,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Evaluating and modifying communication methods can resolve miscommunication issues and improve overall information flow.",
     "source": "ChatGPT"
   },
   {
@@ -2699,7 +2699,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Mapping visually categorizes stakeholders by their influence and interest, facilitating targeted engagement strategies.",
     "source": "ChatGPT"
   },
   {
@@ -2716,12 +2716,12 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Keeping the stakeholder register current and informing the team ensures that changes in expectations are managed proactively.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Your project has experienced repeated changes to the scope due to evolving customer needs. In a complex situation where stakeholders disagree on whether to include additional features, how should you proceed?",
     "options": [
@@ -2733,12 +2733,12 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "A structured change control meeting helps assess the benefits and drawbacks of each request and ensures that scope modifications are managed in an orderly, documented manner.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "In a scenario where project requirements are ambiguous and team members have different interpretations of deliverables, what is the most effective course of action?",
     "options": [
@@ -2750,12 +2750,12 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "A workshop allows all parties to align on requirements, ensuring a common understanding of the project scope and reducing misinterpretations.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "During the execution phase, a key deliverable appears to fall outside the initially defined scope. What should be the project manager’s first step in this complex situation?",
     "options": [
@@ -2767,7 +2767,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The manager should first verify the scope documentation to determine if the deliverable is an approved change or a deviation, then proceed accordingly.",
     "source": "ChatGPT"
   },
   {
@@ -2784,7 +2784,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Analyzing the cost variance helps identify the root causes of overruns and enables the project team to adjust plans and secure necessary approvals for changes.",
     "source": "ChatGPT"
   },
   {
@@ -2801,7 +2801,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "A weighted average provides a balanced estimate, and expert consultation ensures the estimation reflects realistic expectations, mitigating the risk of budget issues.",
     "source": "ChatGPT"
   },
   {
@@ -2818,7 +2818,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Analyzing the variance and updating forecasts allow for an informed decision-making process, while stakeholder communication ensures transparency.",
     "source": "ChatGPT"
   },
   {
@@ -2835,7 +2835,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Assessing compression techniques enables the manager to shorten the schedule in a controlled manner while mitigating the impact of resource shortages.",
     "source": "ChatGPT"
   },
   {
@@ -2852,7 +2852,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Reassessing the schedule and critical path helps identify the most impactful delays and allows for strategic adjustments to get the project back on track.",
     "source": "ChatGPT"
   },
   {
@@ -2869,7 +2869,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Negotiating with the supplier and adjusting the schedule provides a balanced approach to managing external delays without derailing the entire project.",
     "source": "ChatGPT"
   },
   {
@@ -2886,7 +2886,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Reviewing the plan helps identify where processes may be breaking down, allowing for targeted corrective actions that improve quality without sacrificing overall project goals.",
     "source": "ChatGPT"
   },
   {
@@ -2903,7 +2903,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A thorough root cause analysis allows you to understand technology-related challenges and refine your quality processes to address them effectively.",
     "source": "ChatGPT"
   },
   {
@@ -2920,7 +2920,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Incorporating systematic feedback helps refine the quality processes to prevent recurring issues while maintaining project momentum.",
     "source": "ChatGPT"
   },
   {
@@ -2937,7 +2937,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Immediate activation of the risk response plan helps contain the impact, while reassessing priorities ensures that the project can adapt to new conditions.",
     "source": "ChatGPT"
   },
   {
@@ -2954,7 +2954,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "An impact analysis provides insight into how regulatory changes affect the project, allowing for informed updates to risk management strategies.",
     "source": "ChatGPT"
   },
   {
@@ -2971,7 +2971,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A comprehensive review of vendor performance helps determine whether renegotiation or a supplier change is the best course of action without causing unnecessary disruption.",
     "source": "ChatGPT"
   },
   {
@@ -2988,7 +2988,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A thorough evaluation based on multiple criteria ensures that the chosen vendor aligns with project needs and mitigates potential procurement risks.",
     "source": "ChatGPT"
   },
   {
@@ -3005,7 +3005,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Dedicated protocols and structured communication channels help bridge cultural and time zone gaps, ensuring consistent and effective communication.",
     "source": "ChatGPT"
   },
   {
@@ -3022,7 +3022,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A virtual town hall meeting allows for real-time clarification and engagement, reducing misinterpretations and aligning stakeholder actions.",
     "source": "ChatGPT"
   },
   {
@@ -3039,7 +3039,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A workshop fosters open dialogue and collaborative problem-solving, enabling stakeholders to align their priorities and reduce conflicts.",
     "source": "ChatGPT"
   },
   {
@@ -3056,12 +3056,12 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Revising the stakeholder register and assessing the new influence dynamics ensures that the project plan is updated to reflect the current stakeholder landscape.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "In a complex project involving cross-departmental deliverables, you find that different teams interpret the scope differently. What is the most effective approach to resolve these discrepancies?",
     "options": [
@@ -3073,12 +3073,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A joint workshop ensures that all teams discuss, clarify, and agree on the project scope, minimizing misunderstandings.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "When managing a project with evolving requirements, which approach best ensures that scope changes are managed effectively?",
     "options": [
@@ -3090,12 +3090,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A formal change control process ensures that any changes to the scope are evaluated, approved, and documented, preventing uncontrolled scope creep.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "A project deliverable appears to fall outside the originally defined scope. What is the best initial step to address this situation?",
     "options": [
@@ -3107,7 +3107,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Verifying against the approved scope documentation helps determine if the deliverable is an acceptable change or an out-of-scope addition.",
     "source": "ChatGPT"
   },
   {
@@ -3124,7 +3124,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A variance analysis helps identify the reasons behind cost deviations, enabling more accurate reforecasting and corrective action.",
     "source": "ChatGPT"
   },
   {
@@ -3141,7 +3141,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Three-Point Estimating considers optimistic, pessimistic, and most likely scenarios, providing a balanced estimate under uncertainty.",
     "source": "ChatGPT"
   },
   {
@@ -3158,7 +3158,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Understanding the source of the overrun is critical before making any budget adjustments or scope changes.",
     "source": "ChatGPT"
   },
   {
@@ -3175,7 +3175,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Evaluating schedule compression methods allows you to determine the most efficient way to regain lost time without compromising quality.",
     "source": "ChatGPT"
   },
   {
@@ -3192,7 +3192,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Resource leveling adjusts the schedule based on resource constraints, ensuring that work is aligned with available resources.",
     "source": "ChatGPT"
   },
   {
@@ -3209,7 +3209,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A comprehensive schedule review helps identify interdependencies and critical path impacts, enabling effective adjustments to the project timeline.",
     "source": "ChatGPT"
   },
   {
@@ -3226,7 +3226,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A root cause analysis provides insights into the underlying issues, enabling targeted process improvements without sacrificing quality.",
     "source": "ChatGPT"
   },
   {
@@ -3243,7 +3243,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Updating the quality management plan ensures that the project meets the current standards and maintains stakeholder confidence.",
     "source": "ChatGPT"
   },
   {
@@ -3260,7 +3260,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A comprehensive audit helps identify systemic issues and informs necessary process adjustments to improve overall quality.",
     "source": "ChatGPT"
   },
   {
@@ -3277,7 +3277,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A risk matrix helps evaluate and rank risks, ensuring that high-impact and high-probability risks receive priority attention.",
     "source": "ChatGPT"
   },
   {
@@ -3294,7 +3294,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Quickly updating the risk register ensures that the new risk priority is acknowledged and that appropriate mitigation actions are implemented promptly.",
     "source": "ChatGPT"
   },
   {
@@ -3311,7 +3311,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A weighted scoring model ensures that vendors are evaluated holistically, balancing cost, quality, reliability, and other critical factors.",
     "source": "ChatGPT"
   },
   {
@@ -3328,7 +3328,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A performance review provides insights into the issues, allowing for corrective actions or renegotiation before deciding on termination or replacement.",
     "source": "ChatGPT"
   },
   {
@@ -3345,7 +3345,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A meeting fosters interactive discussion and immediate clarification, ensuring that misunderstandings are resolved promptly.",
     "source": "ChatGPT"
   },
   {
@@ -3362,7 +3362,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A thorough review of the communication strategy helps identify gaps and implement improvements to enhance overall information flow.",
     "source": "ChatGPT"
   },
   {
@@ -3379,7 +3379,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "A fresh stakeholder analysis ensures that all influences are understood and that the engagement plan is updated to reflect the new dynamics.",
     "source": "ChatGPT"
   },
   {
@@ -3396,12 +3396,12 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A mediated session promotes open dialogue, helping stakeholders address conflicts and rebuild a cooperative working environment.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which document best outlines the deliverables and boundaries of a project?",
     "options": [
@@ -3413,22 +3413,22 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Scope Statement clearly details the project's deliverables and defines what is included or excluded from the project.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "The process of breaking down project deliverables into smaller, manageable components is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The Work Breakdown Structure (WBS) decomposes project deliverables into smaller work packages for easier management.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which of the following are benefits of effective scope management?",
     "options": [
@@ -3438,7 +3438,7 @@
       "Reduced scope creep"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective scope management provides clarity in deliverables, fosters better communication among stakeholders, and minimizes uncontrolled changes.",
     "source": "ChatGPT"
   },
   {
@@ -3455,7 +3455,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Analogous estimating leverages historical data from past projects to quickly forecast current project costs.",
     "source": "ChatGPT"
   },
   {
@@ -3465,7 +3465,7 @@
     "question": "Match the following cost management processes with their main objectives.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each process in cost management is associated with a distinct objective that guides financial control throughout the project.",
     "source": "ChatGPT"
   },
   {
@@ -3482,7 +3482,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Cost control is used to monitor expenditures and implement corrective actions when spending deviates from the baseline.",
     "source": "ChatGPT"
   },
   {
@@ -3499,7 +3499,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Critical Path Method identifies the longest stretch of dependent tasks and is essential for determining the minimum project duration.",
     "source": "ChatGPT"
   },
   {
@@ -3509,7 +3509,7 @@
     "question": "Identify the critical path on the provided network diagram.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Path 2 is identified as the critical path because it has the longest duration among the available sequences.",
     "source": "ChatGPT"
   },
   {
@@ -3526,7 +3526,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Fast tracking involves performing tasks concurrently that were originally planned in sequence, thereby compressing the schedule.",
     "source": "ChatGPT"
   },
   {
@@ -3543,7 +3543,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Quality control is the process of monitoring and testing deliverables to ensure they adhere to predefined quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -3553,7 +3553,7 @@
     "question": "The ongoing process of enhancing project processes and deliverables is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Quality improvement is aimed at continuously upgrading project processes to better meet stakeholder expectations.",
     "source": "ChatGPT"
   },
   {
@@ -3570,7 +3570,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "A Fishbone Diagram helps in visualizing potential causes of quality problems to facilitate root cause analysis.",
     "source": "ChatGPT"
   },
   {
@@ -3587,7 +3587,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Qualitative risk analysis involves prioritizing risks based on their likelihood and impact, guiding further actions.",
     "source": "ChatGPT"
   },
   {
@@ -3602,7 +3602,7 @@
       "Scope Creep"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Risk response planning includes strategies such as avoidance, transfer, and acceptance to manage identified risks.",
     "source": "ChatGPT"
   },
   {
@@ -3619,7 +3619,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Procurement Statement of Work defines the goods or services to be acquired and is crucial for procurement planning.",
     "source": "ChatGPT"
   },
   {
@@ -3629,7 +3629,7 @@
     "question": "Match the procurement processes with their intended outcomes.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These matches highlight how each procurement process contributes to effective vendor management.",
     "source": "ChatGPT"
   },
   {
@@ -3646,7 +3646,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Information distribution is key to ensuring timely and accurate dissemination of project updates to stakeholders.",
     "source": "ChatGPT"
   },
   {
@@ -3656,7 +3656,7 @@
     "question": "On the provided communication flow diagram, select the area representing the main communication hub.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The communication hub is the central point where project information is aggregated before being distributed.",
     "source": "ChatGPT"
   },
   {
@@ -3673,7 +3673,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Stakeholder identification is the initial step in understanding who might influence or be influenced by the project.",
     "source": "ChatGPT"
   },
   {
@@ -3688,12 +3688,12 @@
       "Conducting structured feedback sessions"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective stakeholder engagement relies on frequent communication, active involvement in decisions, and regular feedback.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "When a stakeholder proposes an addition to the project deliverables after approval, what should be the project manager’s first action?",
     "options": [
@@ -3705,22 +3705,22 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Using the change control process ensures that any proposed scope changes are properly evaluated, documented, and approved before implementation.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "The formal document that captures all approved changes to the project scope is known as the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Scope Change Log is used to record and track changes to the project scope, ensuring transparency and control.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which actions help prevent scope creep during a project?",
     "options": [
@@ -3730,7 +3730,7 @@
       "Conducting regular scope reviews with stakeholders"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Preventing scope creep requires formal processes, clear documentation, and regular communication with stakeholders.",
     "source": "ChatGPT"
   },
   {
@@ -3747,7 +3747,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "EVM provides a comprehensive view of project performance by comparing planned versus actual cost and schedule performance.",
     "source": "ChatGPT"
   },
   {
@@ -3757,7 +3757,7 @@
     "question": "Match the following cost management processes with their primary functions.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each cost management process plays a specific role: estimating, budgeting, and controlling project costs.",
     "source": "ChatGPT"
   },
   {
@@ -3772,7 +3772,7 @@
       "Implementing corrective actions"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective cost management includes analyzing variances, updating forecasts, and applying corrective measures as needed.",
     "source": "ChatGPT"
   },
   {
@@ -3789,7 +3789,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A Gantt Chart visually represents the project schedule by showing activity durations along a timeline.",
     "source": "ChatGPT"
   },
   {
@@ -3799,7 +3799,7 @@
     "question": "On the provided network diagram, click the area that represents the project's critical path.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Path B is the critical path as it determines the minimum project duration by having the longest sequence of dependent tasks.",
     "source": "ChatGPT"
   },
   {
@@ -3809,7 +3809,7 @@
     "question": "The technique of reallocating resources to address schedule constraints is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Resource Leveling is used to adjust the project schedule based on resource availability, ensuring that over-allocation does not occur.",
     "source": "ChatGPT"
   },
   {
@@ -3826,7 +3826,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quality Assurance involves auditing and evaluating project processes to ensure standards and procedures are correctly followed.",
     "source": "ChatGPT"
   },
   {
@@ -3836,7 +3836,7 @@
     "question": "Match the quality tools with their primary purposes.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These quality tools help in identifying, monitoring, and analyzing different aspects of project quality.",
     "source": "ChatGPT"
   },
   {
@@ -3851,7 +3851,7 @@
       "Implementing corrective and preventive actions"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Continuous quality improvement relies on audits, stakeholder input, and systematic corrective measures to enhance project outcomes.",
     "source": "ChatGPT"
   },
   {
@@ -3868,7 +3868,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quantitative Risk Analysis uses numerical methods to determine the overall effect of risks on project objectives.",
     "source": "ChatGPT"
   },
   {
@@ -3878,7 +3878,7 @@
     "question": "The document used to record and track identified risks, their impact, and response strategies is known as the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The Risk Register is a living document that details risks, assessments, and mitigation strategies throughout the project.",
     "source": "ChatGPT"
   },
   {
@@ -3895,7 +3895,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Solicitation is the process of requesting proposals or bids from vendors as part of the procurement cycle.",
     "source": "ChatGPT"
   },
   {
@@ -3905,7 +3905,7 @@
     "question": "In the diagram of a vendor selection process, click on the phase where proposals are compared.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The comparison phase is where vendor proposals are evaluated against the set criteria before making a selection.",
     "source": "ChatGPT"
   },
   {
@@ -3922,7 +3922,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "An effective communication plan clearly specifies how, when, and through which channels information will be disseminated.",
     "source": "ChatGPT"
   },
   {
@@ -3937,7 +3937,7 @@
       "Providing clear and concise documentation"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Enhanced communication is achieved through regular meetings, centralized tools, and clear documentation that reaches all relevant stakeholders.",
     "source": "ChatGPT"
   },
   {
@@ -3954,7 +3954,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Analysis evaluates each stakeholder’s influence and interest, which is crucial for developing an effective engagement strategy.",
     "source": "ChatGPT"
   },
   {
@@ -3964,12 +3964,12 @@
     "question": "Match each stakeholder management activity with its intended purpose.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These activities ensure that stakeholders are both identified early and effectively engaged throughout the project lifecycle.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "When a stakeholder proposes an addition to the project deliverables after approval, what should be the project manager’s first action?",
     "options": [
@@ -3981,22 +3981,22 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Using the change control process ensures that any proposed scope changes are properly evaluated, documented, and approved before implementation.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "The formal document that captures all approved changes to the project scope is known as the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Scope Change Log is used to record and track changes to the project scope, ensuring transparency and control.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which actions help prevent scope creep during a project?",
     "options": [
@@ -4006,7 +4006,7 @@
       "Conducting regular scope reviews with stakeholders"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Preventing scope creep requires formal processes, clear documentation, and regular communication with stakeholders.",
     "source": "ChatGPT"
   },
   {
@@ -4023,7 +4023,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "EVM provides a comprehensive view of project performance by comparing planned versus actual cost and schedule performance.",
     "source": "ChatGPT"
   },
   {
@@ -4033,7 +4033,7 @@
     "question": "Match the following cost management processes with their primary functions.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each cost management process plays a specific role: estimating, budgeting, and controlling project costs.",
     "source": "ChatGPT"
   },
   {
@@ -4048,7 +4048,7 @@
       "Implementing corrective actions"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective cost management includes analyzing variances, updating forecasts, and applying corrective measures as needed.",
     "source": "ChatGPT"
   },
   {
@@ -4065,7 +4065,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A Gantt Chart visually represents the project schedule by showing activity durations along a timeline.",
     "source": "ChatGPT"
   },
   {
@@ -4075,7 +4075,7 @@
     "question": "On the provided network diagram, click the area that represents the project's critical path.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Path B is the critical path as it determines the minimum project duration by having the longest sequence of dependent tasks.",
     "source": "ChatGPT"
   },
   {
@@ -4085,7 +4085,7 @@
     "question": "The technique of reallocating resources to address schedule constraints is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Resource Leveling is used to adjust the project schedule based on resource availability, ensuring that over-allocation does not occur.",
     "source": "ChatGPT"
   },
   {
@@ -4102,7 +4102,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quality Assurance involves auditing and evaluating project processes to ensure standards and procedures are correctly followed.",
     "source": "ChatGPT"
   },
   {
@@ -4112,7 +4112,7 @@
     "question": "Match the quality tools with their primary purposes.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These quality tools help in identifying, monitoring, and analyzing different aspects of project quality.",
     "source": "ChatGPT"
   },
   {
@@ -4127,7 +4127,7 @@
       "Implementing corrective and preventive actions"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Continuous quality improvement relies on audits, stakeholder input, and systematic corrective measures to enhance project outcomes.",
     "source": "ChatGPT"
   },
   {
@@ -4144,7 +4144,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quantitative Risk Analysis uses numerical methods to determine the overall effect of risks on project objectives.",
     "source": "ChatGPT"
   },
   {
@@ -4154,7 +4154,7 @@
     "question": "The document used to record and track identified risks, their impact, and response strategies is known as the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The Risk Register is a living document that details risks, assessments, and mitigation strategies throughout the project.",
     "source": "ChatGPT"
   },
   {
@@ -4171,7 +4171,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Solicitation is the process of requesting proposals or bids from vendors as part of the procurement cycle.",
     "source": "ChatGPT"
   },
   {
@@ -4181,7 +4181,7 @@
     "question": "In the diagram of a vendor selection process, click on the phase where proposals are compared.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The comparison phase is where vendor proposals are evaluated against the set criteria before making a selection.",
     "source": "ChatGPT"
   },
   {
@@ -4198,7 +4198,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "An effective communication plan clearly specifies how, when, and through which channels information will be disseminated.",
     "source": "ChatGPT"
   },
   {
@@ -4213,7 +4213,7 @@
       "Providing clear and concise documentation"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Enhanced communication is achieved through regular meetings, centralized tools, and clear documentation that reaches all relevant stakeholders.",
     "source": "ChatGPT"
   },
   {
@@ -4230,7 +4230,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Analysis evaluates each stakeholder’s influence and interest, which is crucial for developing an effective engagement strategy.",
     "source": "ChatGPT"
   },
   {
@@ -4240,12 +4240,12 @@
     "question": "Match each stakeholder management activity with its intended purpose.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These activities ensure that stakeholders are both identified early and effectively engaged throughout the project lifecycle.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "How can a project manager ensure that all approved scope changes align with the project's overall objectives?",
     "options": [
@@ -4257,22 +4257,22 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Using a change control board ensures that every proposed change is evaluated for alignment with project objectives before approval.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "The document that details the approved changes and modifications to the project scope is called the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The Scope Baseline includes the approved project scope, including any changes that have been formally accepted.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which practices help maintain clarity in project scope?",
     "options": [
@@ -4282,7 +4282,7 @@
       "Utilizing a detailed Work Breakdown Structure"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Maintaining clarity in project scope relies on formal communications, thorough documentation, and a well-structured breakdown of work.",
     "source": "ChatGPT"
   },
   {
@@ -4299,7 +4299,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A variance analysis helps identify the root causes of cost increases, enabling informed decisions about budget adjustments.",
     "source": "ChatGPT"
   },
   {
@@ -4309,7 +4309,7 @@
     "question": "Match the cost management processes with their primary outcomes.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These matches reinforce the roles of each cost management process in ensuring financial control over the project.",
     "source": "ChatGPT"
   },
   {
@@ -4319,7 +4319,7 @@
     "question": "The metric used to compare the value of work performed to the actual cost incurred is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Earned Value is a key metric in Earned Value Management (EVM), used to assess cost performance.",
     "source": "ChatGPT"
   },
   {
@@ -4336,7 +4336,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Critical Path Method (CPM) identifies the longest sequence of dependent tasks, defining the project's minimum completion time.",
     "source": "ChatGPT"
   },
   {
@@ -4346,7 +4346,7 @@
     "question": "On the provided network diagram, select the area that corresponds to the project's critical path.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The highlighted area (Critical Path) represents the sequence of tasks that determines the project's overall duration.",
     "source": "ChatGPT"
   },
   {
@@ -4361,7 +4361,7 @@
       "Using schedule compression techniques"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Mitigating schedule delays often involves techniques like fast tracking, resource leveling, and other compression methods to keep the project on track.",
     "source": "ChatGPT"
   },
   {
@@ -4378,7 +4378,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quality Assurance focuses on evaluating project processes to ensure they adhere to defined quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -4388,7 +4388,7 @@
     "question": "Match each quality management tool with its primary function.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These quality tools help project teams analyze data to improve processes and outcomes.",
     "source": "ChatGPT"
   },
   {
@@ -4398,7 +4398,7 @@
     "question": "The ongoing effort to enhance project processes and outcomes through small, incremental improvements is referred to as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Continuous Improvement is a key concept in quality management that focuses on ongoing enhancements to processes and deliverables.",
     "source": "ChatGPT"
   },
   {
@@ -4415,7 +4415,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quantitative Risk Analysis applies numerical methods to assess the potential impact of risks on project objectives.",
     "source": "ChatGPT"
   },
   {
@@ -4430,7 +4430,7 @@
       "Monitoring risk triggers continuously"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective risk management involves early risk identification, proactive response planning, and continuous monitoring.",
     "source": "ChatGPT"
   },
   {
@@ -4447,7 +4447,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Vendor Evaluation is the process of comparing proposals against set criteria to determine the best fit for the project.",
     "source": "ChatGPT"
   },
   {
@@ -4457,7 +4457,7 @@
     "question": "The formal document that outlines vendor responsibilities and project requirements is known as the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A contract details the terms, conditions, and expectations agreed upon by the vendor and the project team.",
     "source": "ChatGPT"
   },
   {
@@ -4467,7 +4467,7 @@
     "question": "Match the communication artifacts with their primary purposes.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective communication artifacts ensure that project progress and decisions are clearly documented and shared with stakeholders.",
     "source": "ChatGPT"
   },
   {
@@ -4477,7 +4477,7 @@
     "question": "In the provided organizational chart, click the area that represents the primary communication center for the project team.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The Communication Center is the hub where key project information is consolidated and disseminated to the team.",
     "source": "ChatGPT"
   },
   {
@@ -4494,7 +4494,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A stakeholder management plan outlines strategies for engaging and communicating with all relevant stakeholders, ensuring their expectations are managed.",
     "source": "ChatGPT"
   },
   {
@@ -4509,12 +4509,12 @@
       "Inclusive decision-making processes"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Improving stakeholder engagement relies on regular, transparent communication and involving stakeholders in key decisions.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which activity is crucial to ensure that the project scope remains aligned with business objectives throughout the project?",
     "options": [
@@ -4526,22 +4526,22 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Regular scope validation helps confirm that the deliverables continue to meet business objectives and stakeholder expectations.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "A structured approach to breaking down project deliverables into smaller, manageable tasks is called the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The Work Breakdown Structure (WBS) organizes the project into manageable sections, facilitating better control and execution.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which actions help in maintaining a clear and controlled project scope?",
     "options": [
@@ -4551,7 +4551,7 @@
       "Using a detailed Work Breakdown Structure"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective scope management requires formal documentation, regular reviews, and a clear WBS to prevent scope creep.",
     "source": "ChatGPT"
   },
   {
@@ -4568,7 +4568,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "EVM is a systematic approach that combines scope, schedule, and cost to gauge project performance and predict future outcomes.",
     "source": "ChatGPT"
   },
   {
@@ -4578,7 +4578,7 @@
     "question": "Match the following cost management elements with their primary purposes.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These matches emphasize the distinct roles of cost estimation, budgeting, and control in managing project finances.",
     "source": "ChatGPT"
   },
   {
@@ -4588,7 +4588,7 @@
     "question": "The process of comparing actual project spending against the planned budget is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Cost Control involves monitoring spending and taking corrective action when deviations from the budget occur.",
     "source": "ChatGPT"
   },
   {
@@ -4605,7 +4605,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Fast tracking allows activities to be performed concurrently, thereby reducing the overall project duration.",
     "source": "ChatGPT"
   },
   {
@@ -4615,7 +4615,7 @@
     "question": "Review the provided project schedule diagram and select the section that represents the critical milestones.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The milestone area highlights key decision points and deliverable deadlines that are critical for project success.",
     "source": "ChatGPT"
   },
   {
@@ -4630,7 +4630,7 @@
       "Reassessing task dependencies"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Addressing delays effectively can involve compression, better resource management, and revisiting dependencies to optimize the schedule.",
     "source": "ChatGPT"
   },
   {
@@ -4647,7 +4647,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Quality Control is responsible for detecting defects through various inspection and testing methods to ensure deliverables meet quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -4657,7 +4657,7 @@
     "question": "Match the following quality management tools with their primary uses.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Matching these tools with their uses helps in understanding how each contributes to effective quality management.",
     "source": "ChatGPT"
   },
   {
@@ -4667,7 +4667,7 @@
     "question": "The systematic effort to improve processes and reduce waste in project outcomes is called ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Lean Management focuses on streamlining processes to enhance quality and efficiency by eliminating waste.",
     "source": "ChatGPT"
   },
   {
@@ -4684,7 +4684,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Risk Response Planning focuses on determining actions to mitigate threats and capitalize on opportunities identified during risk analysis.",
     "source": "ChatGPT"
   },
   {
@@ -4699,7 +4699,7 @@
       "Regularly updating the risk register"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective risk management includes comprehensive assessments, contingency planning, and continuous monitoring of risks.",
     "source": "ChatGPT"
   },
   {
@@ -4716,7 +4716,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Vendor Evaluation systematically assesses vendor proposals against predetermined criteria to select the most suitable option.",
     "source": "ChatGPT"
   },
   {
@@ -4726,7 +4726,7 @@
     "question": "A formal agreement outlining the expectations, deliverables, and responsibilities between the buyer and vendor is called a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The contract formalizes the terms of procurement, ensuring that both parties understand their obligations.",
     "source": "ChatGPT"
   },
   {
@@ -4743,7 +4743,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A Communication Matrix outlines how and when project information will be shared with stakeholders, ensuring timely and effective communication.",
     "source": "ChatGPT"
   },
   {
@@ -4753,7 +4753,7 @@
     "question": "Review the provided communication flow diagram and select the area that acts as the central information hub.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The central hub is where critical project information is aggregated before being disseminated to stakeholders.",
     "source": "ChatGPT"
   },
   {
@@ -4770,7 +4770,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Analysis assesses the influence and interest of stakeholders, guiding the development of appropriate engagement strategies.",
     "source": "ChatGPT"
   },
   {
@@ -4785,12 +4785,12 @@
       "Tailoring communication to stakeholder needs"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Successful stakeholder management requires ongoing engagement, accurate documentation, and customized communication strategies.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "What is the primary purpose of a project scope statement?",
     "options": [
@@ -4802,22 +4802,22 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The project scope statement defines what is included and excluded, guiding the creation of deliverables.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "The process of formalizing acceptance of completed project deliverables is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Scope Verification confirms that deliverables meet the defined requirements and are acceptable to stakeholders.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which of the following are benefits of a well-defined project scope?",
     "options": [
@@ -4827,7 +4827,7 @@
       "Facilitates accurate budgeting"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "A clear scope helps prevent uncontrolled changes, aligns stakeholder expectations, and aids in planning resources and costs.",
     "source": "ChatGPT"
   },
   {
@@ -4844,7 +4844,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Analogous estimating uses past project data to quickly forecast current project costs.",
     "source": "ChatGPT"
   },
   {
@@ -4854,7 +4854,7 @@
     "question": "Match the following cost management processes with their main focus.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each process plays a distinct role in ensuring the project remains within budget.",
     "source": "ChatGPT"
   },
   {
@@ -4864,7 +4864,7 @@
     "question": "The technique used to measure project performance by comparing work performed to the project plan is called ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Earned Value Management (EVM) integrates cost, schedule, and scope to objectively measure performance.",
     "source": "ChatGPT"
   },
   {
@@ -4881,7 +4881,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "The schedule provides a roadmap for when and how project activities will occur.",
     "source": "ChatGPT"
   },
   {
@@ -4891,7 +4891,7 @@
     "question": "Examine the provided project timeline diagram and click on the area that shows the milestone phase.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The highlighted segment represents the milestone phase in the project timeline.",
     "source": "ChatGPT"
   },
   {
@@ -4906,7 +4906,7 @@
       "Scope Creep"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Schedule compression can be achieved through fast tracking, crashing, and resource leveling.",
     "source": "ChatGPT"
   },
   {
@@ -4923,7 +4923,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Quality Control involves monitoring deliverables to ensure they meet established quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -4933,7 +4933,7 @@
     "question": "Match the following quality tools with their purposes.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These tools help analyze and maintain quality standards throughout the project.",
     "source": "ChatGPT"
   },
   {
@@ -4943,7 +4943,7 @@
     "question": "The continuous effort to improve processes and outcomes is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Continuous Improvement involves regularly refining processes to enhance project results.",
     "source": "ChatGPT"
   },
   {
@@ -4960,7 +4960,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Risk Identification is the process of determining which risks may impact the project and documenting them.",
     "source": "ChatGPT"
   },
   {
@@ -4975,7 +4975,7 @@
       "Regularly updating the risk register"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective risk management requires identifying risks early, planning responses, and continuously updating risk information.",
     "source": "ChatGPT"
   },
   {
@@ -4992,7 +4992,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Procurement Statement of Work details the goods or services to be acquired and sets vendor expectations.",
     "source": "ChatGPT"
   },
   {
@@ -5002,7 +5002,7 @@
     "question": "A legally binding agreement between the buyer and vendor is called a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A contract formalizes the terms of procurement and ensures both parties understand their responsibilities.",
     "source": "ChatGPT"
   },
   {
@@ -5019,7 +5019,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Communication Matrix specifies the methods, frequency, and recipients of project information.",
     "source": "ChatGPT"
   },
   {
@@ -5029,7 +5029,7 @@
     "question": "Review the provided communication diagram and click on the area representing the central communication hub.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The central hub is where critical project information is gathered before distribution.",
     "source": "ChatGPT"
   },
   {
@@ -5046,7 +5046,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Analysis assesses the level of influence and interest of stakeholders, guiding effective engagement.",
     "source": "ChatGPT"
   },
   {
@@ -5061,12 +5061,12 @@
       "Tailoring communication strategies"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Enhancing stakeholder engagement involves consistent interactions, up-to-date records, and customized communication.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which element is critical for defining project boundaries?",
     "options": [
@@ -5078,22 +5078,22 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A Scope Statement outlines the project deliverables and boundaries, ensuring clarity.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "The method for breaking project work into manageable parts is called the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Work Breakdown Structure (WBS) decomposes the project into smaller components for easier management.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which practices help maintain a clear project scope?",
     "options": [
@@ -5103,7 +5103,7 @@
       "Formal change control"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Maintaining a clear scope relies on regular reviews, thorough documentation, and a formal change control process.",
     "source": "ChatGPT"
   },
   {
@@ -5120,7 +5120,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Analogous Estimating uses historical data from similar projects, making it ideal when details are scarce.",
     "source": "ChatGPT"
   },
   {
@@ -5130,7 +5130,7 @@
     "question": "Match each cost management process with its function.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each process has a unique role in managing project finances.",
     "source": "ChatGPT"
   },
   {
@@ -5140,7 +5140,7 @@
     "question": "The integrated approach that compares planned and actual project performance is called ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Earned Value Management (EVM) combines scope, schedule, and cost data to evaluate performance.",
     "source": "ChatGPT"
   },
   {
@@ -5157,7 +5157,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Critical Path Method (CPM) identifies the sequence of tasks that determines the project's minimum duration.",
     "source": "ChatGPT"
   },
   {
@@ -5167,7 +5167,7 @@
     "question": "Click on the segment that represents the critical path in the provided network diagram.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The critical path is the sequence of tasks that determines the project's minimum completion time.",
     "source": "ChatGPT"
   },
   {
@@ -5182,7 +5182,7 @@
       "Reassessing dependencies"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Mitigating delays can involve techniques like fast tracking, crashing, and reassessing task dependencies.",
     "source": "ChatGPT"
   },
   {
@@ -5199,7 +5199,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Quality Control involves inspecting deliverables to ensure they meet quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -5209,7 +5209,7 @@
     "question": "Match the quality management tool with its primary function.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These tools help analyze quality data and identify areas for improvement.",
     "source": "ChatGPT"
   },
   {
@@ -5219,7 +5219,7 @@
     "question": "The ongoing pursuit of enhanced processes and deliverables is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Continuous Improvement focuses on incremental enhancements to project processes and outcomes.",
     "source": "ChatGPT"
   },
   {
@@ -5236,7 +5236,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Risk Identification is the process of documenting potential risks that could affect the project.",
     "source": "ChatGPT"
   },
   {
@@ -5251,7 +5251,7 @@
       "Regular risk monitoring"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Proactive risk management requires early detection, planning responses, and continuous monitoring.",
     "source": "ChatGPT"
   },
   {
@@ -5268,7 +5268,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Procurement Statement of Work specifies what is to be procured and sets vendor expectations.",
     "source": "ChatGPT"
   },
   {
@@ -5278,7 +5278,7 @@
     "question": "A legally binding agreement between the buyer and vendor is called a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Contract formalizes the terms and conditions of procurement, ensuring clarity and accountability.",
     "source": "ChatGPT"
   },
   {
@@ -5295,7 +5295,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Communication Matrix details how and when project information is communicated to stakeholders.",
     "source": "ChatGPT"
   },
   {
@@ -5305,7 +5305,7 @@
     "question": "On the provided diagram, click the area representing the primary communication hub.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The primary communication hub is where key project information is centralized.",
     "source": "ChatGPT"
   },
   {
@@ -5322,7 +5322,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Analysis assesses the influence and interest of stakeholders, guiding effective engagement strategies.",
     "source": "ChatGPT"
   },
   {
@@ -5337,12 +5337,12 @@
       "Tailored communication"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Enhancing stakeholder engagement requires consistent interactions, accurate records, and communication tailored to stakeholder needs.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which document best defines the boundaries and deliverables of a project?",
     "options": [
@@ -5354,22 +5354,22 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Scope Statement clearly outlines what is included—and excluded—in the project.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "The process of obtaining formal sign-off on completed project deliverables is called ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Scope Validation is the process where stakeholders formally accept the project deliverables.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which practices are key to preventing scope creep?",
     "options": [
@@ -5379,7 +5379,7 @@
       "Conducting regular stakeholder reviews"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "A formal change control process, thorough documentation, and periodic reviews help keep the project scope under control.",
     "source": "ChatGPT"
   },
   {
@@ -5396,7 +5396,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Analogous Estimating uses data from past similar projects to estimate costs quickly.",
     "source": "ChatGPT"
   },
   {
@@ -5406,7 +5406,7 @@
     "question": "Match the cost management process with its primary function.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each process plays a distinct role in ensuring project finances are well-managed.",
     "source": "ChatGPT"
   },
   {
@@ -5416,7 +5416,7 @@
     "question": "The practice of comparing planned project costs to actual costs is called ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Cost Control involves monitoring and managing cost performance against the budget.",
     "source": "ChatGPT"
   },
   {
@@ -5433,7 +5433,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A project schedule defines when tasks will be performed and in what order, ensuring a coherent timeline.",
     "source": "ChatGPT"
   },
   {
@@ -5443,7 +5443,7 @@
     "question": "Click on the area in the network diagram that represents the critical path.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The critical path determines the minimum project duration and is represented by the highlighted segment.",
     "source": "ChatGPT"
   },
   {
@@ -5458,7 +5458,7 @@
       "Scope Expansion"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Fast tracking, crashing, and resource leveling are common techniques to reduce overall project duration.",
     "source": "ChatGPT"
   },
   {
@@ -5475,7 +5475,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Quality Control focuses on inspecting deliverables to ensure they meet defined quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -5485,7 +5485,7 @@
     "question": "Match each quality tool with its primary use.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These quality tools help diagnose process issues and maintain quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -5495,7 +5495,7 @@
     "question": "The ongoing process of refining project processes to enhance outcomes is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Continuous Improvement involves regularly enhancing processes to improve project results.",
     "source": "ChatGPT"
   },
   {
@@ -5512,7 +5512,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Risk Identification is the first step in risk management, where potential risks are documented for further action.",
     "source": "ChatGPT"
   },
   {
@@ -5527,7 +5527,7 @@
       "Continuous risk monitoring"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective risk management requires identifying risks early, planning responses, and continuously monitoring them.",
     "source": "ChatGPT"
   },
   {
@@ -5544,7 +5544,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Procurement Statement of Work provides detailed requirements for goods or services to be procured.",
     "source": "ChatGPT"
   },
   {
@@ -5554,7 +5554,7 @@
     "question": "A formal agreement between a buyer and vendor is called a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Contract legally binds the buyer and vendor to the terms of procurement.",
     "source": "ChatGPT"
   },
   {
@@ -5571,7 +5571,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Communication Matrix details the methods, frequency, and recipients of project communications.",
     "source": "ChatGPT"
   },
   {
@@ -5581,7 +5581,7 @@
     "question": "On the provided diagram, click the area that represents the central communication node.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The central communication node is where key project information converges before distribution.",
     "source": "ChatGPT"
   },
   {
@@ -5598,7 +5598,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Analysis evaluates stakeholder influence and interest, helping to tailor engagement strategies.",
     "source": "ChatGPT"
   },
   {
@@ -5613,12 +5613,12 @@
       "Tailored communication methods"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective stakeholder engagement involves ongoing interactions, current records, and communication tailored to stakeholder needs.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which step is essential for finalizing the project scope before execution begins?",
     "options": [
@@ -5630,22 +5630,22 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Developing a Scope Statement is critical to clearly define project boundaries and deliverables before the project starts.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "The document used to record approved changes to the project scope is known as the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Scope Change Log records all approved scope modifications, ensuring clarity and traceability.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which activities help maintain project scope control?",
     "options": [
@@ -5655,7 +5655,7 @@
       "Detailed documentation of requirements"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Regular reviews, a formal change control process, and thorough documentation are key to maintaining scope control.",
     "source": "ChatGPT"
   },
   {
@@ -5672,7 +5672,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Analogous Estimating relies on historical data and is useful when detailed project data is not yet available.",
     "source": "ChatGPT"
   },
   {
@@ -5682,7 +5682,7 @@
     "question": "Match the following cost management processes with their primary focus.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each process has a distinct function: estimating costs, planning budgets, and controlling expenditures.",
     "source": "ChatGPT"
   },
   {
@@ -5692,7 +5692,7 @@
     "question": "Comparing actual spending to the planned budget is a key aspect of ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Cost Control involves monitoring actual expenditures against the budget and taking corrective action as needed.",
     "source": "ChatGPT"
   },
   {
@@ -5709,7 +5709,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Critical Path Method pinpoints the longest sequence of dependent tasks that determines the project duration.",
     "source": "ChatGPT"
   },
   {
@@ -5724,7 +5724,7 @@
       "Scope Creep"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Fast tracking, crashing, and resource leveling are common techniques used to shorten the overall schedule.",
     "source": "ChatGPT"
   },
   {
@@ -5734,7 +5734,7 @@
     "question": "Adjusting the project timeline based on resource availability is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Resource Leveling helps adjust the schedule to accommodate available resources and avoid over-allocation.",
     "source": "ChatGPT"
   },
   {
@@ -5751,7 +5751,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Quality Control is focused on inspecting and testing deliverables to verify that they adhere to quality requirements.",
     "source": "ChatGPT"
   },
   {
@@ -5761,7 +5761,7 @@
     "question": "Match each quality tool with its main function.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These quality tools help teams analyze data to identify and address quality issues effectively.",
     "source": "ChatGPT"
   },
   {
@@ -5771,7 +5771,7 @@
     "question": "The systematic pursuit of improvements to processes and products is called ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Continuous Improvement is an ongoing effort to enhance project processes and outcomes over time.",
     "source": "ChatGPT"
   },
   {
@@ -5788,7 +5788,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Risk Identification involves documenting all potential risks that could impact the project.",
     "source": "ChatGPT"
   },
   {
@@ -5803,7 +5803,7 @@
       "Regular risk monitoring"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Proactive risk management relies on early identification, planning effective responses, and continuous monitoring of risks.",
     "source": "ChatGPT"
   },
   {
@@ -5820,7 +5820,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Procurement Statement of Work specifies the detailed requirements for goods or services, setting clear vendor expectations.",
     "source": "ChatGPT"
   },
   {
@@ -5830,7 +5830,7 @@
     "question": "A legally binding agreement between a buyer and a vendor is known as a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Contract formalizes the terms of procurement, ensuring both parties agree to the set terms.",
     "source": "ChatGPT"
   },
   {
@@ -5847,7 +5847,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Communication Matrix specifies the channels, frequency, and recipients of project communications.",
     "source": "ChatGPT"
   },
   {
@@ -5862,7 +5862,7 @@
       "Using collaborative tools"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Improved communication is achieved through regular meetings, clear messaging, and modern collaboration tools.",
     "source": "ChatGPT"
   },
   {
@@ -5879,7 +5879,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Analysis assesses the power and interest of each stakeholder to guide appropriate engagement strategies.",
     "source": "ChatGPT"
   },
   {
@@ -5889,12 +5889,12 @@
     "question": "Match each stakeholder management activity with its purpose.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These activities are essential for understanding and effectively engaging stakeholders throughout the project.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which process finalizes project requirements and deliverables?",
     "options": [
@@ -5906,22 +5906,22 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Scope Validation is the process where stakeholders formally accept the completed deliverables.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "The detailed document that outlines what is and is not included in the project is the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The Scope Statement provides detailed boundaries and deliverables for the project.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which of the following actions contribute to effective scope management?",
     "options": [
@@ -5931,7 +5931,7 @@
       "Involving key stakeholders in planning"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Regular reviews, formal change control, and stakeholder involvement help maintain scope integrity.",
     "source": "ChatGPT"
   },
   {
@@ -5948,7 +5948,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Parametric Estimating uses statistical relationships to calculate project costs based on historical data.",
     "source": "ChatGPT"
   },
   {
@@ -5958,7 +5958,7 @@
     "question": "Match the following cost management activities with their descriptions.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each cost management process has a unique role in managing project finances.",
     "source": "ChatGPT"
   },
   {
@@ -5968,7 +5968,7 @@
     "question": "Tracking actual expenditures against the planned budget is an example of ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Cost Control involves monitoring and comparing actual spend to the budget to ensure financial performance.",
     "source": "ChatGPT"
   },
   {
@@ -5985,7 +5985,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Critical Path Method identifies the longest sequence of dependent tasks that determines the project duration.",
     "source": "ChatGPT"
   },
   {
@@ -6000,7 +6000,7 @@
       "Rebaselining"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Fast tracking, crashing, and resource smoothing are common methods for compressing the project schedule.",
     "source": "ChatGPT"
   },
   {
@@ -6010,7 +6010,7 @@
     "question": "Adjusting the schedule based on resource availability is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Resource Leveling adjusts the schedule to account for resource constraints and avoid overallocation.",
     "source": "ChatGPT"
   },
   {
@@ -6027,7 +6027,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quality Assurance evaluates and improves processes to ensure they conform to quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -6037,7 +6037,7 @@
     "question": "Match each quality tool with its primary purpose.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These quality tools help identify, visualize, and control quality issues.",
     "source": "ChatGPT"
   },
   {
@@ -6047,7 +6047,7 @@
     "question": "An ongoing effort to improve project processes is referred to as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Continuous Improvement is the systematic effort to enhance processes and outcomes over time.",
     "source": "ChatGPT"
   },
   {
@@ -6064,7 +6064,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Risk Identification is the initial step in risk management, where potential risks are listed and documented.",
     "source": "ChatGPT"
   },
   {
@@ -6079,7 +6079,7 @@
       "Continuous risk monitoring"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective risk management involves early detection, planning, and continuous monitoring of risks.",
     "source": "ChatGPT"
   },
   {
@@ -6096,7 +6096,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Procurement Statement of Work details the specifications and expectations for external procurement.",
     "source": "ChatGPT"
   },
   {
@@ -6106,7 +6106,7 @@
     "question": "A formal, legally binding agreement between a buyer and vendor is called a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Contract outlines the terms and conditions for procurement and legally binds both parties.",
     "source": "ChatGPT"
   },
   {
@@ -6123,7 +6123,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Communication Matrix specifies how, when, and through which channels project information will be distributed.",
     "source": "ChatGPT"
   },
   {
@@ -6138,7 +6138,7 @@
       "Utilizing collaboration platforms"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective communication is achieved through frequent meetings, clear messaging, and the use of collaborative tools.",
     "source": "ChatGPT"
   },
   {
@@ -6155,7 +6155,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Analysis evaluates each stakeholder's influence and interest, informing tailored engagement strategies.",
     "source": "ChatGPT"
   },
   {
@@ -6165,12 +6165,12 @@
     "question": "Match each stakeholder management activity with its purpose.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These activities help ensure that all stakeholders are identified and effectively engaged throughout the project.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which process formalizes changes to the project scope?",
     "options": [
@@ -6182,22 +6182,22 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Scope Change Control ensures that any modifications to the project scope are reviewed, approved, and documented before implementation.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "The document that records and tracks all approved changes to the project scope is called the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The Scope Change Log maintains a record of all scope modifications, ensuring transparency and traceability throughout the project.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which practices help ensure a clear project scope?",
     "options": [
@@ -6207,7 +6207,7 @@
       "Using a formal change control process"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "A clear scope is maintained by decomposing work, aligning stakeholders regularly, and controlling changes through formal processes.",
     "source": "ChatGPT"
   },
   {
@@ -6224,7 +6224,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Parametric Estimating applies statistical relationships to predict costs, making it effective when similar projects' data is available.",
     "source": "ChatGPT"
   },
   {
@@ -6234,7 +6234,7 @@
     "question": "Match each cost management process with its function.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each process has a specific role: estimating costs, planning budgets, and controlling expenditures.",
     "source": "ChatGPT"
   },
   {
@@ -6244,7 +6244,7 @@
     "question": "The difference between planned and actual project spending is referred to as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Cost Variance quantifies the difference between budgeted and actual costs, serving as a key metric in cost management.",
     "source": "ChatGPT"
   },
   {
@@ -6261,7 +6261,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Resource Smoothing adjusts the schedule without changing the critical path, ensuring resources are optimally allocated.",
     "source": "ChatGPT"
   },
   {
@@ -6276,7 +6276,7 @@
       "Quality control methods"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Project schedules are developed by considering task durations, dependencies, and available resources.",
     "source": "ChatGPT"
   },
   {
@@ -6286,7 +6286,7 @@
     "question": "A formal review at the end of a project phase, used to decide if the project should continue, is called a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Phase Gate review is used to assess project progress and make decisions about moving to the next phase.",
     "source": "ChatGPT"
   },
   {
@@ -6303,7 +6303,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quality Assurance evaluates project processes to ensure they adhere to the established quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -6313,7 +6313,7 @@
     "question": "Match each quality metric with its description.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These metrics help quantify quality in terms of defects, stakeholder satisfaction, and process performance.",
     "source": "ChatGPT"
   },
   {
@@ -6323,7 +6323,7 @@
     "question": "The statistical methodology aimed at reducing process variability is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Six Sigma uses data-driven techniques to reduce variability and improve process quality.",
     "source": "ChatGPT"
   },
   {
@@ -6340,7 +6340,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quantitative Risk Analysis uses numerical data to estimate risk impacts and probabilities, helping prioritize risks.",
     "source": "ChatGPT"
   },
   {
@@ -6355,7 +6355,7 @@
       "Team morale"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Risk analysis often involves assessing the likelihood, impact, and detectability of risks to prioritize them effectively.",
     "source": "ChatGPT"
   },
   {
@@ -6372,7 +6372,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Solicitation is the process of requesting proposals or bids from potential vendors for project needs.",
     "source": "ChatGPT"
   },
   {
@@ -6382,7 +6382,7 @@
     "question": "A formal, legally binding agreement between a buyer and a vendor is called a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Contract formalizes the terms and conditions of procurement and ensures both parties are bound to the agreement.",
     "source": "ChatGPT"
   },
   {
@@ -6399,7 +6399,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Communication Matrix outlines how and when project information will be shared with stakeholders.",
     "source": "ChatGPT"
   },
   {
@@ -6409,7 +6409,7 @@
     "question": "The process of distributing project information to all relevant stakeholders is called ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Information Distribution ensures that project updates and data reach all stakeholders in a timely manner.",
     "source": "ChatGPT"
   },
   {
@@ -6426,7 +6426,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Analysis evaluates and categorizes stakeholders, enabling tailored engagement strategies based on their influence.",
     "source": "ChatGPT"
   },
   {
@@ -6441,12 +6441,12 @@
       "Involving stakeholders in decision-making"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective engagement is achieved by keeping stakeholders informed, tailoring communications, and actively involving them in project decisions.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which document serves as the baseline for all project scope changes?",
     "options": [
@@ -6458,22 +6458,22 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Scope Statement provides a baseline that defines what is and isn’t included in the project.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Breaking down project deliverables into manageable components is known as creating a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Work Breakdown Structure (WBS) decomposes project deliverables into smaller, manageable pieces.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which practices help in maintaining a well-controlled project scope?",
     "options": [
@@ -6483,7 +6483,7 @@
       "Comprehensive documentation"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Regular reviews, formal change controls, and thorough documentation prevent scope creep and keep the project aligned.",
     "source": "ChatGPT"
   },
   {
@@ -6500,7 +6500,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Cost Budgeting involves setting the spending limits and allocating funds across the project activities.",
     "source": "ChatGPT"
   },
   {
@@ -6510,7 +6510,7 @@
     "question": "Match the cost management term with its definition.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each process has a distinct role in managing project finances.",
     "source": "ChatGPT"
   },
   {
@@ -6520,7 +6520,7 @@
     "question": "The documented cost baseline, used to compare actual performance, is known as the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The Cost Baseline is the approved version of the project budget, used for performance measurement.",
     "source": "ChatGPT"
   },
   {
@@ -6537,7 +6537,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Fast Tracking involves overlapping tasks that were originally planned sequentially to shorten the schedule.",
     "source": "ChatGPT"
   },
   {
@@ -6547,7 +6547,7 @@
     "question": "Adjusting the project schedule to accommodate resource availability is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Resource Leveling modifies the schedule based on available resources, avoiding over-allocation.",
     "source": "ChatGPT"
   },
   {
@@ -6562,7 +6562,7 @@
       "Quality metrics"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "A project schedule is developed by considering the duration of tasks, their dependencies, and the resources available.",
     "source": "ChatGPT"
   },
   {
@@ -6579,7 +6579,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Quality Assurance is the process of auditing and evaluating processes to ensure compliance with quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -6589,7 +6589,7 @@
     "question": "Match the following quality improvement tools with their primary purpose.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These tools are used to enhance quality by reducing defects and driving improvements.",
     "source": "ChatGPT"
   },
   {
@@ -6599,7 +6599,7 @@
     "question": "A data-driven methodology aimed at reducing process defects is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Six Sigma employs statistical methods to reduce defects and improve quality.",
     "source": "ChatGPT"
   },
   {
@@ -6616,7 +6616,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Risk Identification is the first step in risk management, where potential risks are systematically documented.",
     "source": "ChatGPT"
   },
   {
@@ -6631,7 +6631,7 @@
       "Continuous risk monitoring"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Proactive risk management involves detecting risks early, planning responses, and continuously monitoring the risk landscape.",
     "source": "ChatGPT"
   },
   {
@@ -6648,7 +6648,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Solicitation is the process of requesting proposals or bids from vendors to fulfill project requirements.",
     "source": "ChatGPT"
   },
   {
@@ -6658,7 +6658,7 @@
     "question": "A document that formally requests bids or proposals from vendors is known as a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Request for Proposal (RFP) outlines the project requirements and invites vendors to submit proposals.",
     "source": "ChatGPT"
   },
   {
@@ -6675,7 +6675,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Communication Matrix specifies how, when, and by what means project information is distributed to stakeholders.",
     "source": "ChatGPT"
   },
   {
@@ -6685,7 +6685,7 @@
     "question": "Match each communication tool with its primary function.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These tools ensure that project information is shared effectively and efficiently.",
     "source": "ChatGPT"
   },
   {
@@ -6702,7 +6702,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Analysis evaluates each stakeholder's power, interest, and influence, guiding appropriate engagement strategies.",
     "source": "ChatGPT"
   },
   {
@@ -6712,12 +6712,12 @@
     "question": "A document that records stakeholder information, including roles and influence, is known as the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The Stakeholder Register is used to document and manage stakeholder details throughout the project.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which process ensures that the project scope is formally approved by all key stakeholders?",
     "options": [
@@ -6729,22 +6729,22 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Scope Validation is the process in which stakeholders review and formally accept the project deliverables and scope.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "The document that details all project deliverables and boundaries is known as the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The Scope Statement clearly outlines what is included in—and excluded from—the project.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which activities are key to effective scope management?",
     "options": [
@@ -6754,7 +6754,7 @@
       "Developing the project schedule"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective scope management includes clear definition of deliverables, formal handling of changes, and regular review of the scope baseline.",
     "source": "ChatGPT"
   },
   {
@@ -6771,7 +6771,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Bottom-Up Estimating involves estimating costs for each work package and summing them to arrive at a project total.",
     "source": "ChatGPT"
   },
   {
@@ -6781,7 +6781,7 @@
     "question": "Match each cost estimation method with its characteristic.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each cost estimation method has its own approach based on data availability and desired accuracy.",
     "source": "ChatGPT"
   },
   {
@@ -6791,7 +6791,7 @@
     "question": "The difference between the budgeted cost and the actual cost is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Cost Variance is a measure of cost performance used to determine how much over or under budget the project is.",
     "source": "ChatGPT"
   },
   {
@@ -6808,7 +6808,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "A Gantt Chart is a bar chart that visually outlines project activities along a timeline.",
     "source": "ChatGPT"
   },
   {
@@ -6823,7 +6823,7 @@
       "Quality control methods"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Project schedules depend on the estimated duration of tasks, their dependencies, and the availability of resources.",
     "source": "ChatGPT"
   },
   {
@@ -6833,7 +6833,7 @@
     "question": "The process of reducing the project duration by adding extra resources is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Crashing involves adding resources to critical tasks to shorten the overall project duration, often at an increased cost.",
     "source": "ChatGPT"
   },
   {
@@ -6850,7 +6850,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Quality Control focuses on inspecting deliverables to ensure they meet the predetermined quality standards.",
     "source": "ChatGPT"
   },
   {
@@ -6860,7 +6860,7 @@
     "question": "Match each quality process with its primary objective.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each quality process plays a different role, from auditing to defect detection and continuous enhancement.",
     "source": "ChatGPT"
   },
   {
@@ -6870,7 +6870,7 @@
     "question": "An ongoing effort to make incremental improvements to processes is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Continuous Improvement focuses on gradual enhancements to processes and outcomes over time.",
     "source": "ChatGPT"
   },
   {
@@ -6887,7 +6887,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Risk Identification is the first step in risk management, where potential risks are listed for further analysis.",
     "source": "ChatGPT"
   },
   {
@@ -6902,7 +6902,7 @@
       "Continuous risk monitoring"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Proactive risk management involves detecting risks early, planning responses, and continuously monitoring risks.",
     "source": "ChatGPT"
   },
   {
@@ -6912,7 +6912,7 @@
     "question": "A tool used to prioritize risks based on likelihood and impact is called a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Risk Matrix visually displays risks to help prioritize them based on their probability and potential impact.",
     "source": "ChatGPT"
   },
   {
@@ -6929,7 +6929,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Vendor Evaluation is the process of assessing proposals against criteria to select the best vendor.",
     "source": "ChatGPT"
   },
   {
@@ -6939,7 +6939,7 @@
     "question": "Match the procurement processes with their functions.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These procurement processes work together to ensure that vendors are properly solicited, evaluated, and managed.",
     "source": "ChatGPT"
   },
   {
@@ -6949,7 +6949,7 @@
     "question": "The process of obtaining goods and services from external sources is called ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Procurement involves acquiring goods or services from external vendors to fulfill project requirements.",
     "source": "ChatGPT"
   },
   {
@@ -6966,7 +6966,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Information Distribution focuses on delivering project information to stakeholders according to the communication plan.",
     "source": "ChatGPT"
   },
   {
@@ -6981,12 +6981,12 @@
       "Active involvement in decision-making"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective stakeholder engagement is achieved through ongoing communication, customized messages, and involving stakeholders in key decisions.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which process in scope management formalizes the acceptance of project deliverables?",
     "options": [
@@ -6998,22 +6998,22 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Scope Validation is the process where stakeholders review and formally accept project deliverables.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Breaking down project deliverables into smaller components is achieved through a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Work Breakdown Structure (WBS) decomposes the project into smaller, more manageable parts.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which practices help maintain a clear project scope?",
     "options": [
@@ -7023,7 +7023,7 @@
       "Comprehensive documentation"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Regular reviews, formal change controls, and thorough documentation help prevent scope creep.",
     "source": "ChatGPT"
   },
   {
@@ -7040,7 +7040,7 @@
     "answers": [
       3
     ],
-    "explanation": null,
+    "explanation": "Three-Point Estimating accounts for uncertainty by using optimistic, pessimistic, and most likely estimates.",
     "source": "ChatGPT"
   },
   {
@@ -7050,7 +7050,7 @@
     "question": "Match each cost management term with its description.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each process plays a unique role in managing the project budget.",
     "source": "ChatGPT"
   },
   {
@@ -7060,7 +7060,7 @@
     "question": "Tracking project performance by comparing earned value to actual cost is a key element of ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Earned Value Management (EVM) combines cost, schedule, and scope to measure performance.",
     "source": "ChatGPT"
   },
   {
@@ -7077,7 +7077,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Critical Path Method (CPM) pinpoints the sequence of tasks that directly influences the project’s overall duration.",
     "source": "ChatGPT"
   },
   {
@@ -7092,7 +7092,7 @@
       "Quality control metrics"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective scheduling considers task durations, dependencies, and resource constraints.",
     "source": "ChatGPT"
   },
   {
@@ -7102,7 +7102,7 @@
     "question": "Rearranging tasks to balance resource utilization is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Resource Leveling adjusts the schedule based on resource availability to avoid over-allocation.",
     "source": "ChatGPT"
   },
   {
@@ -7119,7 +7119,7 @@
     "answers": [
       2
     ],
-    "explanation": null,
+    "explanation": "Quality Control focuses on testing and inspecting deliverables to ensure they conform to quality requirements.",
     "source": "ChatGPT"
   },
   {
@@ -7129,7 +7129,7 @@
     "question": "Match each quality metric with its definition.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These metrics quantify quality in terms of defects, process performance, and stakeholder satisfaction.",
     "source": "ChatGPT"
   },
   {
@@ -7139,7 +7139,7 @@
     "question": "An ongoing effort to enhance processes and products is referred to as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Continuous Improvement is a systematic approach to incrementally enhance processes over time.",
     "source": "ChatGPT"
   },
   {
@@ -7156,7 +7156,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Risk Analysis quantitatively evaluates the likelihood and impact of risks to prioritize them.",
     "source": "ChatGPT"
   },
   {
@@ -7171,7 +7171,7 @@
       "Continuous risk monitoring"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective risk management requires early detection, proactive planning, and ongoing monitoring of risks.",
     "source": "ChatGPT"
   },
   {
@@ -7188,7 +7188,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Solicitation is the process of inviting vendors to submit proposals or bids for project requirements.",
     "source": "ChatGPT"
   },
   {
@@ -7198,7 +7198,7 @@
     "question": "A legally binding agreement between a buyer and a vendor is known as a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Contract formalizes the terms and conditions of procurement between the parties.",
     "source": "ChatGPT"
   },
   {
@@ -7215,7 +7215,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Communication Matrix defines the channels, frequency, and methods for disseminating project information.",
     "source": "ChatGPT"
   },
   {
@@ -7230,7 +7230,7 @@
       "Utilizing collaboration tools"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective communication is achieved through frequent updates, clarity in messaging, and modern collaboration platforms.",
     "source": "ChatGPT"
   },
   {
@@ -7247,7 +7247,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Analysis evaluates stakeholders' influence and interest, guiding tailored engagement strategies.",
     "source": "ChatGPT"
   },
   {
@@ -7257,12 +7257,12 @@
     "question": "Match each stakeholder management activity with its intended purpose.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These activities ensure stakeholders are both identified and engaged effectively throughout the project.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which process monitors project progress and identifies deviations from the scope baseline?",
     "options": [
@@ -7274,22 +7274,22 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Scope Monitoring tracks project performance against the scope baseline to detect any deviations.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "The process of reviewing and merging approved changes into the project scope is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Integrated Change Control ensures that changes are systematically reviewed and merged into the project scope.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which elements are essential when defining the project scope?",
     "options": [
@@ -7299,7 +7299,7 @@
       "Budget"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Defining scope requires specifying what deliverables will be produced, what is included, and what is excluded.",
     "source": "ChatGPT"
   },
   {
@@ -7316,7 +7316,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Cost Forecasting estimates future project costs by analyzing current performance trends.",
     "source": "ChatGPT"
   },
   {
@@ -7326,7 +7326,7 @@
     "question": "The approved version of the project budget, used as a performance baseline, is called the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The Cost Baseline is the approved budget against which actual spending is measured.",
     "source": "ChatGPT"
   },
   {
@@ -7336,7 +7336,7 @@
     "question": "Match each cost control tool with its purpose.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each tool serves to monitor and forecast cost performance throughout the project.",
     "source": "ChatGPT"
   },
   {
@@ -7353,7 +7353,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "PERT Analysis uses three estimates (optimistic, most likely, and pessimistic) to compute a weighted average duration.",
     "source": "ChatGPT"
   },
   {
@@ -7363,7 +7363,7 @@
     "question": "A bar chart that visually represents the project schedule is known as a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Gantt Charts display tasks along a timeline, showing start and finish dates.",
     "source": "ChatGPT"
   },
   {
@@ -7378,7 +7378,7 @@
       "Quality metrics"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Sequencing requires considering dependencies, available resources, and estimated task durations.",
     "source": "ChatGPT"
   },
   {
@@ -7395,7 +7395,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Quality Planning defines the quality standards and metrics that deliverables must meet.",
     "source": "ChatGPT"
   },
   {
@@ -7405,7 +7405,7 @@
     "question": "A tool used to monitor process performance and variability over time is known as a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Control Charts are used to track process performance and detect any significant variations.",
     "source": "ChatGPT"
   },
   {
@@ -7415,7 +7415,7 @@
     "question": "Match each quality metric with its description.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These metrics help quantify quality in terms of defects, process performance, and stakeholder satisfaction.",
     "source": "ChatGPT"
   },
   {
@@ -7432,7 +7432,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Qualitative Risk Analysis ranks risks by assessing their probability and potential impact on the project.",
     "source": "ChatGPT"
   },
   {
@@ -7442,7 +7442,7 @@
     "question": "A centralized document that records all identified risks, their analysis, and response plans is called the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The Risk Register is used to track risks, including their probability, impact, and planned responses.",
     "source": "ChatGPT"
   },
   {
@@ -7457,7 +7457,7 @@
       "Risk Exploitation"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Risk mitigation strategies for negative risks typically include avoidance, mitigation, and transference.",
     "source": "ChatGPT"
   },
   {
@@ -7474,7 +7474,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Solicitation is the process of requesting bids or proposals from potential vendors.",
     "source": "ChatGPT"
   },
   {
@@ -7484,7 +7484,7 @@
     "question": "A document that outlines the detailed requirements for a product or service is known as the ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "The Procurement Statement of Work (SOW) details the scope and requirements for the procurement of goods or services.",
     "source": "ChatGPT"
   },
   {
@@ -7501,7 +7501,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Contract Administration involves managing vendor performance and ensuring that contractual obligations are met.",
     "source": "ChatGPT"
   },
   {
@@ -7518,7 +7518,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Communication Matrix outlines the methods, frequency, and formats for communicating project information.",
     "source": "ChatGPT"
   },
   {
@@ -7533,12 +7533,12 @@
       "Increasing project costs"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "A robust communication strategy considers stakeholder needs, clear messaging, and the right channels for effective information dissemination.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Which document is used to formally define and approve project deliverables?",
     "options": [
@@ -7550,22 +7550,22 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "The Scope Statement formally defines what is and isn’t included in the project deliverables.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "The process of reviewing completed deliverables for formal acceptance is called ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Scope Validation involves getting formal acceptance from stakeholders on the completed deliverables.",
     "source": "ChatGPT"
   },
   {
     "topics": [
-      "Project Scope Management"
+      "Scope Management"
     ],
     "question": "Select all that apply: Which practices are essential to control project scope?",
     "options": [
@@ -7575,7 +7575,7 @@
       "Increasing project budget"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective scope control requires formal change control, comprehensive documentation, and regular reviews.",
     "source": "ChatGPT"
   },
   {
@@ -7592,7 +7592,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Bottom-Up Estimating calculates costs by estimating each component individually and aggregating the totals.",
     "source": "ChatGPT"
   },
   {
@@ -7602,7 +7602,7 @@
     "question": "Match each cost management process with its objective.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Each process plays a vital role in managing project finances from forecasting to control.",
     "source": "ChatGPT"
   },
   {
@@ -7612,7 +7612,7 @@
     "question": "The process of monitoring actual spending against the planned budget is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Cost Control is used to compare planned spending to actual expenditures and take corrective actions if necessary.",
     "source": "ChatGPT"
   },
   {
@@ -7629,7 +7629,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "A Gantt Chart visually represents project tasks on a timeline, showing start and finish dates.",
     "source": "ChatGPT"
   },
   {
@@ -7644,7 +7644,7 @@
       "Quality standards"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Project schedules are developed by estimating task durations, mapping dependencies, and considering available resources.",
     "source": "ChatGPT"
   },
   {
@@ -7654,7 +7654,7 @@
     "question": "The technique of adjusting the project schedule based on resource constraints is known as ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Resource Leveling rebalances the schedule to match resource availability and avoid overallocation.",
     "source": "ChatGPT"
   },
   {
@@ -7671,7 +7671,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Quality Planning involves determining quality standards and setting objectives that deliverables must meet.",
     "source": "ChatGPT"
   },
   {
@@ -7681,7 +7681,7 @@
     "question": "Match each quality tool with its primary purpose.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These tools are used to analyze quality problems and ensure processes remain stable.",
     "source": "ChatGPT"
   },
   {
@@ -7691,7 +7691,7 @@
     "question": "The methodical process of making ongoing improvements to project processes is called ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "Continuous Improvement is a systematic, ongoing effort to improve project processes and outcomes.",
     "source": "ChatGPT"
   },
   {
@@ -7708,7 +7708,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "Risk Identification is the initial process that involves listing potential risks that might impact the project.",
     "source": "ChatGPT"
   },
   {
@@ -7723,7 +7723,7 @@
       "Ongoing risk monitoring"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective risk management includes early detection, contingency planning, and continuous monitoring.",
     "source": "ChatGPT"
   },
   {
@@ -7740,7 +7740,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Vendor Evaluation is the process of comparing vendor proposals against established criteria to select the most suitable vendor.",
     "source": "ChatGPT"
   },
   {
@@ -7750,7 +7750,7 @@
     "question": "A formal document that outlines the terms and conditions of procurement is known as a ________.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "A Contract legally binds the buyer and vendor to agreed terms and conditions.",
     "source": "ChatGPT"
   },
   {
@@ -7767,7 +7767,7 @@
     "answers": [
       0
     ],
-    "explanation": null,
+    "explanation": "The Communication Matrix details the methods, frequency, and channels for disseminating project information.",
     "source": "ChatGPT"
   },
   {
@@ -7782,7 +7782,7 @@
       "Use of collaborative tools"
     ],
     "answers": [],
-    "explanation": null,
+    "explanation": "Effective communication is achieved through regular meetings, clear and concise documentation, and collaboration tools.",
     "source": "ChatGPT"
   },
   {
@@ -7799,7 +7799,7 @@
     "answers": [
       1
     ],
-    "explanation": null,
+    "explanation": "Stakeholder Analysis assesses the influence and interest of stakeholders to help tailor engagement strategies.",
     "source": "ChatGPT"
   },
   {
@@ -7809,7 +7809,7 @@
     "question": "Match each stakeholder management activity with its purpose.",
     "options": [],
     "answers": [],
-    "explanation": null,
+    "explanation": "These activities ensure that stakeholders are identified and effectively engaged throughout the project lifecycle.",
     "source": "ChatGPT"
   }
 ]
