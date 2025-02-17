@@ -1,29 +1,40 @@
 const fs = require("fs");
 const { oldQuestions } = require("./questions_old.js");
 
-// Convert old questions to the new format
+// Standardized category mapping
+const categoryMap = {
+  "Project Scope Management": "Project Scope Management",
+  "Cost Management": "Cost Management",
+  "Time Management": "Time Management",
+  "Quality Management": "Quality Management",
+  "Risk Management": "Risk Management",
+  "Procurement Management": "Procurement Management",
+  "Communication Management": "Communication Management",
+  "Stakeholder Management": "Stakeholder Management",
+};
+
+// Convert old questions to new format
 const newQuestions = oldQuestions.map((q) => {
-  // Find the index of the correct answer in q.options (if it exists)
+  // Ensure options exist and find correct index of the answer
   let correctIndex = [];
   if (Array.isArray(q.options) && q.answer && q.options.includes(q.answer)) {
     correctIndex = [q.options.indexOf(q.answer)];
   }
 
-  // Convert "categories" or "topic" to "topics" array
-  // Remove the word "Project " from each topic string if it appears
-  const rawTopics = q.categories || [q.topic];
-  const finalTopics = rawTopics.map((topic) =>
-    topic.replace(/^Project\s+/, "") // remove "Project " at the start of the string
-  );
+  // Normalize categories into "topics"
+  let rawTopics = q.categories || [];
+  
+  // Ensure topics match the exact category list
+  const finalTopics = rawTopics
+    .map((topic) => categoryMap[topic] || topic) // Standardize category names
+    .filter((topic) => Object.values(categoryMap).includes(topic)); // Ensure only valid topics remain
 
   return {
     topics: finalTopics,
-    question: q.question,
-    options: q.options || [],
+    question: q.question.trim(),
+    options: q.options ? q.options.map((opt) => opt.trim()) : [],
     answers: correctIndex,
-    // Keep existing explanation if it exists, otherwise null
-    explanation: q.explanation || null,
-    // Add source field
+    explanation: q.explanation?.trim() || null,
     source: "ChatGPT",
   };
 });

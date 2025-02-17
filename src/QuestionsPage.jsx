@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./QuestionsPage.css";
 import Confetti from "./Confetti";
-import newQuestions  from "../questions_new.json"; // Import new questions
+
+const API_URL = "http://3.129.26.188:3001/api/questions"; // Update with your actual API URL
 
 // Function to remove duplicate questions based on question text and merge topics
 const removeDuplicates = (questions) => {
@@ -25,35 +26,38 @@ const removeDuplicates = (questions) => {
   return uniqueQuestions;
 };
 
-// Function to count questions by topic
-const countQuestionsByTopic = (questions) => {
-  const topicCounts = {};
-
-  questions.forEach((question) => {
-    if (!question.topics) return; // Prevent crashing
-
-    question.topics.forEach((topic) => {
-      if (!topicCounts[topic]) {
-        topicCounts[topic] = 0;
-      }
-      topicCounts[topic]++;
-    });
-  });
-
-  return topicCounts;
-};
-
 const QuestionsPage = () => {
   const { category } = useParams();
+  const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
   const [score, setScore] = useState(0);
   const [isCorrect, setIsCorrect] = useState(null);
-  const [quizOver, setQuizOver] = useState(false); // ✅ Track if quiz is finished
+  const [quizOver, setQuizOver] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  const uniqueQuestions = removeDuplicates(newQuestions); // Use newQuestions
-  const filteredQuestions = (uniqueQuestions || []).filter(
+  useEffect(() => {
+    const fetchQuestions = async () => {
+      try {
+        const response = await fetch(API_URL);
+        if (!response.ok) {
+          throw new Error("Failed to fetch questions");
+        }
+        const data = await response.json();
+        setQuestions(removeDuplicates(data)); // Process API data
+        setLoading(false);
+      } catch (err) {
+        setError(err.message);
+        setLoading(false);
+      }
+    };
+
+    fetchQuestions();
+  }, []);
+
+  const filteredQuestions = (questions || []).filter(
     (q) =>
       Array.isArray(q.topics) &&
       q.topics.some(
@@ -67,6 +71,22 @@ const QuestionsPage = () => {
     console.log("Current Question Index:", currentQuestionIndex);
   }, [filteredQuestions, currentQuestionIndex]);
 
+  if (loading) {
+    return (
+      <div className="questions-container">
+        <p>Loading questions...</p>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="questions-container">
+        <p>Error: {error}</p>
+      </div>
+    );
+  }
+
   if (!filteredQuestions || filteredQuestions.length === 0) {
     return (
       <div className="questions-container">
@@ -76,7 +96,6 @@ const QuestionsPage = () => {
     );
   }
 
-  // ✅ Show quiz completion screen
   if (quizOver) {
     return (
       <div className="quiz-over">
@@ -117,7 +136,7 @@ const QuestionsPage = () => {
     );
   }
 
-  const { question, options, answer, explanation, type } = currentQuestion;
+  const { question, options = [], answers = [], explanation, type } = currentQuestion;
 
   const handleNext = () => {
     if (currentQuestionIndex < filteredQuestions.length - 1) {
@@ -138,21 +157,18 @@ const QuestionsPage = () => {
   };
 
   const handleOptionSelect = (index) => {
+    if (!Array.isArray(answers)) {
+      console.error("Answers array is missing or invalid", currentQuestion);
+      return;
+    }
+
     setSelectedOption(index);
     setShowAnswer(true);
-    setIsCorrect(answer.includes(index));
-    if (answer.includes(index)) {
+    setIsCorrect(answers.includes(index));
+
+    if (answers.includes(index)) {
       setScore((prevScore) => prevScore + 1);
     }
-  };
-
-  const handleFillInTheBlank = (e) => {
-    setSelectedOption(e.target.value);
-  };
-
-  const checkFillInTheBlank = () => {
-    setShowAnswer(true);
-    setIsCorrect(selectedOption.trim().toLowerCase() === answer.toLowerCase());
   };
 
   const progress = ((currentQuestionIndex + 1) / filteredQuestions.length) * 100;
@@ -160,51 +176,56 @@ const QuestionsPage = () => {
   return (
     <div className="questions-container">
       <h2>{category.replace(/-/g, " ")} Questions</h2>
+
+      {/* ✅ Progress Bar (NOT Removed) */}
       <div className="progress-bar">
         <div className="progress" style={{ width: `${progress}%` }}></div>
       </div>
+
       <p className="question-text">{question}</p>
+
       {type === "fill-in-the-blank" ? (
         <div>
           <input
             type="text"
             value={selectedOption || ""}
-            onChange={handleFillInTheBlank}
+            onChange={(e) => setSelectedOption(e.target.value)}
             placeholder="Type your answer..."
           />
-          <button onClick={checkFillInTheBlank}>Submit Answer</button>
+          <button onClick={() => setShowAnswer(true)}>Submit Answer</button>
         </div>
-      ) : (
+      ) : options.length > 0 ? (
         <ul className="options-list">
-          {Array.isArray(options) &&
-            options.map((option, index) => (
-              <li
-                key={index}
-                className={`option ${
-                  selectedOption === index ? "selected" : ""
-                } ${showAnswer && answer.includes(index) ? "correct" : ""} ${
-                  showAnswer && selectedOption === index && !answer.includes(index) ? "incorrect" : ""
-                }`}
-                onClick={() => !showAnswer && handleOptionSelect(index)}
-              >
-                {option}
-              </li>
-            ))}
+          {options.map((option, index) => (
+            <li
+              key={index}
+              className={`option ${selectedOption === index ? "selected" : ""} 
+              ${showAnswer && answers.includes(index) ? "correct" : ""} 
+              ${showAnswer && selectedOption === index && !answers.includes(index) ? "incorrect" : ""}`}
+              onClick={() => !showAnswer && handleOptionSelect(index)}
+            >
+              {option}
+            </li>
+          ))}
         </ul>
+      ) : (
+        <p className="no-options">This question does not have selectable options.</p>
       )}
+
       {showAnswer && (
         <>
           <div className={`answer-feedback ${isCorrect ? "correct" : "incorrect"}`}>
             {isCorrect ? "Correct!" : "Incorrect!"}
           </div>
           <p className="answer-text">
-            <strong>Answer:</strong> {options[answer[0]]}
+            <strong>Answer:</strong> {answers.map((i) => options[i] || "N/A").join(", ")}
           </p>
           <p className="explanation-text">
             <strong>Explanation:</strong> {explanation}
           </p>
         </>
       )}
+
       <div className="quiz-buttons">
         <button onClick={handlePrev} disabled={currentQuestionIndex === 0}>
           Previous
