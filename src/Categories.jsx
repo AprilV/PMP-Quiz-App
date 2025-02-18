@@ -4,7 +4,7 @@ import "./Categories.css";
 
 function Categories() {
   const categories = [
-    { name: "Project Scope Management", icon: "📋" },
+    { name: "Scope Management", icon: "📋" },
     { name: "Cost Management", icon: "💰" },
     { name: "Time Management", icon: "⏰" },
     { name: "Quality Management", icon: "✅" },
