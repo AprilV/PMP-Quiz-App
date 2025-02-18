@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import "./QuestionsPage.css";
 import Confetti from "./Confetti";
 
-const API_URL = "http://3.129.26.188:3001/api/questions"; // Update with your actual API URL
+const API_URL = "https://3.129.26.188/api/questions"; // Update with your actual API URL
 
 // Function to remove duplicate questions based on question text and merge topics
 const removeDuplicates = (questions) => {
