@@ -3,7 +3,8 @@ import { useParams } from "react-router-dom";
 import "./QuestionsPage.css";
 import Confetti from "./Confetti";
 
-const API_URL = "https://3.129.26.188/api/questions"; // Update with your actual API URL
+// Updated API URL to use HTTPS and omit the port (Nginx will proxy to port 3001)
+const API_URL = "https://3.129.26.188/api/questions";
 
 // Function to remove duplicate questions based on question text and merge topics
 const removeDuplicates = (questions) => {
@@ -177,7 +178,7 @@ const QuestionsPage = () => {
     <div className="questions-container">
       <h2>{category.replace(/-/g, " ")} Questions</h2>
 
-      {/* ✅ Progress Bar (NOT Removed) */}
+      {/* ✅ Progress Bar */}
       <div className="progress-bar">
         <div className="progress" style={{ width: `${progress}%` }}></div>
       </div>
