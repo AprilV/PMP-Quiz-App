@@ -32,11 +32,14 @@
 /* Categories Grid */
 .categories-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px; /* Slightly larger gap for better spacing */
+  grid-template-columns: repeat(4, 1fr); /* Forces exactly 4 columns */
+  grid-template-rows: repeat(2, auto); /* Forces exactly 2 rows */
+  gap: 40px; /* Ensures even spacing both horizontally and vertically */
   width: 90%;
   max-width: 1200px;
-  margin-top: 40px; /* More spacing from the hero section */
+  margin-top: 40px; /* Adds space below the hero section */
+  justify-content: center; /* Centers the grid */
+  align-items: center; /* Aligns items properly */
 }
 
 /* Individual Category Cards */
@@ -50,27 +53,52 @@
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Inherit text color */
   border: 1px solid #e0e0e0; /* Light border for depth */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px; /* Ensures consistent height */
+  height: 100%; /* Ensures boxes stretch evenly */
 }
 
-.category-card:hover {
-  transform: translateY(-10px); /* More pronounced lift on hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
-  border-color: #541771; /* Purple border on hover */
+/* Ensure text and icon inside cards are centered */
+.category-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 10px;
 }
 
-.category-card h3 {
+.category-name {
   font-size: 1.3rem; /* Slightly larger text */
   color: #541771; /* Purple Theme */
   margin: 0;
   font-weight: 500; /* Medium weight for better readability */
+  text-align: center;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+/* Ensure hover effect does not break uniformity */
+.category-card:hover {
+  transform: translateY(-5px); /* Slight lift */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  border-color: #541771; /* Purple border on hover */
+}
+
+/* Ensure responsive design */
+@media (max-width: 1024px) {
   .categories-grid {
-    grid-template-columns: 1fr; /* Stacks cards on smaller screens */
-    gap: 15px; /* Smaller gap for mobile */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns per row for medium screens */
+    grid-template-rows: repeat(4, auto); /* 4 rows */
+    gap: 30px; /* Adjusted gap for smaller screens */
   }
+}
+
+@media (max-width: 600px) {
+  .categories-grid {
+    grid-template-columns: 1fr; /* Stack on smaller screens */
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+}
 
   .categories-hero h1 {
     font-size: 2rem; /* Smaller heading for mobile */

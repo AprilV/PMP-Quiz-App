@@ -1,18 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import "./QuestionsPage.css";
 import Confetti from "./Confetti";
 
-// Updated API URL to use HTTPS and omit the port (Nginx will proxy to port 3001)
-const API_URL = "https://3.129.26.188/api/questions";
+const API_URL = "https://18.189.253.207/api/questions";
 
-// Function to remove duplicate questions based on question text and merge topics
 const removeDuplicates = (questions) => {
   const uniqueQuestions = [];
   const seenQuestions = new Map();
 
   for (const question of questions) {
-    if (!question.topics) question.topics = []; // Ensure topics exist
+    if (!question.topics) question.topics = [];
 
     if (!seenQuestions.has(question.question)) {
       seenQuestions.set(question.question, question);
@@ -29,6 +27,7 @@ const removeDuplicates = (questions) => {
 
 const QuestionsPage = () => {
   const { category } = useParams();
+  const navigate = useNavigate();
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
@@ -47,7 +46,7 @@ const QuestionsPage = () => {
           throw new Error("Failed to fetch questions");
         }
         const data = await response.json();
-        setQuestions(removeDuplicates(data)); // Process API data
+        setQuestions(removeDuplicates(data));
         setLoading(false);
       } catch (err) {
         setError(err.message);
@@ -58,11 +57,12 @@ const QuestionsPage = () => {
     fetchQuestions();
   }, []);
 
-  const filteredQuestions = (questions || []).filter(
+  const filteredQuestions = questions.filter(
     (q) =>
       Array.isArray(q.topics) &&
       q.topics.some(
-        (topic) => topic.toLowerCase() === category.replace(/-/g, " ").toLowerCase()
+        (topic) =>
+          topic.toLowerCase() === category.replace(/-/g, " ").toLowerCase()
       )
   );
 
@@ -104,7 +104,10 @@ const QuestionsPage = () => {
         <div className="quiz-over-card">
           <h2 className="quiz-over-title">Quiz Over!</h2>
           <p className="quiz-over-score">
-            Your Score: <strong>{score} / {filteredQuestions.length}</strong>
+            Your Score:{" "}
+            <strong>
+              {score} / {filteredQuestions.length}
+            </strong>
           </p>
           <div className="quiz-over-buttons">
             <button
@@ -126,7 +129,8 @@ const QuestionsPage = () => {
     );
   }
 
-  const currentQuestion = filteredQuestions[currentQuestionIndex] || filteredQuestions[0];
+  const currentQuestion =
+    filteredQuestions[currentQuestionIndex] || filteredQuestions[0];
 
   if (!currentQuestion) {
     return (
@@ -137,7 +141,13 @@ const QuestionsPage = () => {
     );
   }
 
-  const { question, options = [], answers = [], explanation, type } = currentQuestion;
+  const {
+    question,
+    options = [],
+    answers = [],
+    explanation,
+    type,
+  } = currentQuestion;
 
   const handleNext = () => {
     if (currentQuestionIndex < filteredQuestions.length - 1) {
@@ -172,11 +182,27 @@ const QuestionsPage = () => {
     }
   };
 
-  const progress = ((currentQuestionIndex + 1) / filteredQuestions.length) * 100;
+  const handleEndTest = () => {
+    setQuizOver(true);
+  };
+
+  const progress =
+    ((currentQuestionIndex + 1) / filteredQuestions.length) * 100;
 
   return (
     <div className="questions-container">
-      <h2>{category.replace(/-/g, " ")} Questions</h2>
+      <h2>
+        {category
+          .replace(/-/g, " ") // Replace hyphens with spaces
+          .toLowerCase() // Ensure all lowercase first
+          .replace(/\b\w/g, (char) => char.toUpperCase())}{" "}
+        Questions
+      </h2>
+
+      {/* ✅ Show Question Count */}
+      <p className="question-counter">
+        Question {currentQuestionIndex + 1} of {filteredQuestions.length}
+      </p>
 
       {/* ✅ Progress Bar */}
       <div className="progress-bar">
@@ -186,7 +212,7 @@ const QuestionsPage = () => {
       <p className="question-text">{question}</p>
 
       {type === "fill-in-the-blank" ? (
-        <div>
+        <div className="fill-in-the-blank-container">
           <input
             type="text"
             value={selectedOption || ""}
@@ -202,7 +228,13 @@ const QuestionsPage = () => {
               key={index}
               className={`option ${selectedOption === index ? "selected" : ""} 
               ${showAnswer && answers.includes(index) ? "correct" : ""} 
-              ${showAnswer && selectedOption === index && !answers.includes(index) ? "incorrect" : ""}`}
+              ${
+                showAnswer &&
+                selectedOption === index &&
+                !answers.includes(index)
+                  ? "incorrect"
+                  : ""
+              }`}
               onClick={() => !showAnswer && handleOptionSelect(index)}
             >
               {option}
@@ -210,33 +242,22 @@ const QuestionsPage = () => {
           ))}
         </ul>
       ) : (
-        <p className="no-options">This question does not have selectable options.</p>
-      )}
-
-      {showAnswer && (
-        <>
-          <div className={`answer-feedback ${isCorrect ? "correct" : "incorrect"}`}>
-            {isCorrect ? "Correct!" : "Incorrect!"}
-          </div>
-          <p className="answer-text">
-            <strong>Answer:</strong> {answers.map((i) => options[i] || "N/A").join(", ")}
-          </p>
-          <p className="explanation-text">
-            <strong>Explanation:</strong> {explanation}
-          </p>
-        </>
+        <p className="no-options">
+          This question does not have selectable options.
+        </p>
       )}
 
       <div className="quiz-buttons">
         <button onClick={handlePrev} disabled={currentQuestionIndex === 0}>
           Previous
         </button>
-        <button onClick={handleNext}>
-          {currentQuestionIndex === filteredQuestions.length - 1 ? "Finish" : "Next"}
-        </button>
-      </div>
-      <div className="score-container">
-        <p>Score: {score} / {filteredQuestions.length}</p>
+        {currentQuestionIndex === filteredQuestions.length - 1 ? (
+          <button onClick={handleEndTest} className="end-test-button">
+            End Test
+          </button>
+        ) : (
+          <button onClick={handleNext}>Next</button>
+        )}
       </div>
     </div>
   );
