@@ -5,6 +5,15 @@ import Confetti from "./Confetti";
 
 const API_URL = "https://18.189.253.207/api/questions";
 
+// Function to shuffle an array (Fisher-Yates algorithm)
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+};
+
 const removeDuplicates = (questions) => {
   const uniqueQuestions = [];
   const seenQuestions = new Map();
@@ -31,6 +40,7 @@ const QuestionsPage = () => {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOptions, setSelectedOptions] = useState([]); // For multi-answer questions
   const [showAnswer, setShowAnswer] = useState(false);
   const [score, setScore] = useState(0);
   const [isCorrect, setIsCorrect] = useState(null);
@@ -46,7 +56,9 @@ const QuestionsPage = () => {
           throw new Error("Failed to fetch questions");
         }
         const data = await response.json();
-        setQuestions(removeDuplicates(data));
+        const uniqueQuestions = removeDuplicates(data);
+        const shuffledQuestions = shuffleArray(uniqueQuestions); // Shuffle the questions
+        setQuestions(shuffledQuestions);
         setLoading(false);
       } catch (err) {
         setError(err.message);
@@ -116,12 +128,19 @@ const QuestionsPage = () => {
                 setCurrentQuestionIndex(0);
                 setScore(0);
                 setSelectedOption(null);
+                setSelectedOptions([]);
                 setShowAnswer(false);
                 setIsCorrect(null);
                 setQuizOver(false);
               }}
             >
               Try Again
+            </button>
+            <button
+              className="exit-quiz-button"
+              onClick={() => navigate("/categories")}
+            >
+              Back to Categories
             </button>
           </div>
         </div>
@@ -156,6 +175,7 @@ const QuestionsPage = () => {
       setQuizOver(true);
     }
     setSelectedOption(null);
+    setSelectedOptions([]);
     setShowAnswer(false);
     setIsCorrect(null);
   };
@@ -163,27 +183,42 @@ const QuestionsPage = () => {
   const handlePrev = () => {
     setCurrentQuestionIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : 0));
     setSelectedOption(null);
+    setSelectedOptions([]);
     setShowAnswer(false);
     setIsCorrect(null);
   };
 
   const handleOptionSelect = (index) => {
-    if (!Array.isArray(answers)) {
-      console.error("Answers array is missing or invalid", currentQuestion);
-      return;
-    }
-
-    setSelectedOption(index);
-    setShowAnswer(true);
-    setIsCorrect(answers.includes(index));
-
-    if (answers.includes(index)) {
-      setScore((prevScore) => prevScore + 1);
+    if (type === "multi-answer") {
+      const updatedOptions = selectedOptions.includes(index)
+        ? selectedOptions.filter((i) => i !== index)
+        : [...selectedOptions, index];
+      setSelectedOptions(updatedOptions);
+    } else {
+      setSelectedOption(index);
     }
   };
 
-  const handleEndTest = () => {
-    setQuizOver(true);
+  const handleSubmitAnswer = () => {
+    let correct = false;
+    if (type === "multi-answer") {
+      correct = selectedOptions.sort().toString() === answers.sort().toString();
+    } else if (type === "fill-in-the-blank") {
+      correct = answers
+        .map((answer) => answer.toLowerCase().trim())
+        .includes(selectedOption.toLowerCase().trim());
+    } else {
+      correct = answers.includes(selectedOption);
+    }
+    setIsCorrect(correct);
+    if (correct) setScore((prevScore) => prevScore + 1);
+    setShowAnswer(true);
+  };
+
+  const handleExitQuiz = () => {
+    if (window.confirm("Are you sure you want to exit the quiz?")) {
+      navigate("/categories"); // Redirect to the categories page
+    }
   };
 
   const progress =
@@ -191,20 +226,23 @@ const QuestionsPage = () => {
 
   return (
     <div className="questions-container">
+      {/* Exit Quiz Button (X) in the upper-right corner */}
+      <button className="exit-quiz-button" onClick={handleExitQuiz}>
+        X
+      </button>
+
       <h2>
         {category
-          .replace(/-/g, " ") // Replace hyphens with spaces
-          .toLowerCase() // Ensure all lowercase first
+          .replace(/-/g, " ")
+          .toLowerCase()
           .replace(/\b\w/g, (char) => char.toUpperCase())}{" "}
         Questions
       </h2>
 
-      {/* ✅ Show Question Count */}
       <p className="question-counter">
         Question {currentQuestionIndex + 1} of {filteredQuestions.length}
       </p>
 
-      {/* ✅ Progress Bar */}
       <div className="progress-bar">
         <div className="progress" style={{ width: `${progress}%` }}></div>
       </div>
@@ -219,8 +257,27 @@ const QuestionsPage = () => {
             onChange={(e) => setSelectedOption(e.target.value)}
             placeholder="Type your answer..."
           />
-          <button onClick={() => setShowAnswer(true)}>Submit Answer</button>
+          <button onClick={handleSubmitAnswer}>Submit Answer</button>
         </div>
+      ) : type === "multi-answer" ? (
+        <ul className="options-list">
+          {options.map((option, index) => (
+            <li
+              key={index}
+              className={`option ${
+                selectedOptions.includes(index) ? "selected" : ""
+              } ${showAnswer && answers.includes(index) ? "correct" : ""}`}
+              onClick={() => handleOptionSelect(index)}
+            >
+              <input
+                type="checkbox"
+                checked={selectedOptions.includes(index)}
+                onChange={() => handleOptionSelect(index)}
+              />
+              {option}
+            </li>
+          ))}
+        </ul>
       ) : options.length > 0 ? (
         <ul className="options-list">
           {options.map((option, index) => (
@@ -247,12 +304,43 @@ const QuestionsPage = () => {
         </p>
       )}
 
+      {showAnswer && (
+        <div className="feedback">
+          <p
+            className={`answer-feedback ${isCorrect ? "correct" : "incorrect"}`}
+          >
+            {isCorrect ? "Correct!" : "Incorrect!"}
+          </p>
+          <p className="correct-answer">
+            Correct Answer:{" "}
+            {type === "multi-answer"
+              ? answers.map((index) => options[index]).join(", ")
+              : options[answers[0]] || answers[0]}
+          </p>
+          <p className="explanation-text">
+            <strong>Explanation:</strong> {explanation}
+          </p>
+        </div>
+      )}
+
+      {/* Score Display at the Bottom */}
+      <div className="score-container">
+        <p>
+          Score:{" "}
+          <strong>
+            {score} / {filteredQuestions.length}
+          </strong>
+        </p>
+      </div>
+
       <div className="quiz-buttons">
         <button onClick={handlePrev} disabled={currentQuestionIndex === 0}>
           Previous
         </button>
-        {currentQuestionIndex === filteredQuestions.length - 1 ? (
-          <button onClick={handleEndTest} className="end-test-button">
+        {!showAnswer ? (
+          <button onClick={handleSubmitAnswer}>Submit Answer</button>
+        ) : currentQuestionIndex === filteredQuestions.length - 1 ? (
+          <button onClick={() => setQuizOver(true)} className="end-test-button">
             End Test
           </button>
         ) : (

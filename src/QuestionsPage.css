@@ -1,47 +1,44 @@
-/* Container for the quiz questions */
+/* Global styles for centering */
+body {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+  background-color: #f0f0f0; /* Optional: Add a background color */
+}
+
 .questions-container {
-  width: 800px;
-  height: 750px; /* Fixed height */
-  padding: 30px;
-  margin: 0 auto;
+  width: 800px; /* Increased from 700px */
+  height: 700px; /* Increased from 600px */
+  padding: 20px; /* Adjust padding if needed */
+  margin: 0; /* Remove margin to allow centering */
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Ensures spacing */
+  justify-content: space-between;
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   border: 1px solid #e0e0e0;
-  overflow: hidden;
+  overflow: hidden; /* Prevent scrollbars */
 }
+
 
 /* Header for the quiz */
 .questions-container h2 {
-  font-size: 2rem;
+  font-size: 1.5rem; /* Reduced from 2rem */
   font-weight: 700;
-  margin-bottom: 20px;
-  color: #6a1b9a; /* Purple for the header */
+  margin-bottom: 15px; /* Reduced margin */
+  color: #6a1b9a;
   text-align: center;
 }
 
 .question-counter {
-  font-size: 16px;  /* Adjust size if needed */
+  font-size: 16px;
   font-weight: bold;
-  color: #ff5733;  /* Change this to your desired color */
+  color: #ff5733; /* Orange for the counter */
   text-align: center;
   margin-bottom: 10px;
-}
-/* Submit Answer button remains inline */
-.submit-answer {
-  margin-top: 15px;
-  padding: 12px 24px;
-  cursor: pointer;
-  border: none;
-  background-color: black;
-  color: white;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: 600;
-  transition: all 0.3s ease;
 }
 
 /* Progress bar container */
@@ -49,7 +46,7 @@
   width: 100%;
   background-color: #e0e0e0;
   border-radius: 8px;
-  margin: 20px 0;
+  margin: 15px 0; /* Reduced margin */
   overflow: hidden;
 }
 
@@ -63,94 +60,36 @@
 
 /* Question text */
 .question-text {
-  font-size: 1.2rem;
+  font-size: 1rem; /* Reduced from 1.2rem */
   font-weight: 600;
-  margin-bottom: 20px;
-  color: #000000; /* Pure black for better readability */
+  margin-bottom: 15px; /* Reduced margin */
+  color: #000000;
   line-height: 1.4;
-  overflow-wrap: break-word; /* Ensure long questions wrap */
-}
-/* Keep Previous & Next buttons fixed at the bottom */
-.quiz-navigation {
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  bottom: 20px;  /* Position at the bottom of the container */
-  left: 0;
-  right: 0;
-  width: 100%;
-  padding: 15px 30px;
-  background: white; /* Match the container background */
-}
-/* Styling for navigation buttons */
-.quiz-navigation button {
-  padding: 12px 24px;
-  cursor: pointer;
-  border: none;
-  background-color: #6a1b9a;
-  color: white;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-/* Hover effect */
-.quiz-navigation button:hover {
-  background-color: #4a148c;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.fill-in-the-blank-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;  /* Center input and button */
-  gap: 10px;  /* Reduce gap between input and button */
-  margin-top: 15px; /* Reduce space below question */
-}
-
-.fill-in-the-blank-container input {
-  width: 300px; /* Set a fixed width */
-  padding: 10px;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.fill-in-the-blank-container button {
-  background-color: #000;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.fill-in-the-blank-container button:hover {
-  background-color: #333;
+  overflow-wrap: break-word;
 }
 
 /* List of options */
 .options-list {
   list-style-type: none;
   padding: 0;
-  max-height: 300px; /* Fixed height for options list */
-  overflow-y: auto; /* Add scroll if options overflow */
+  max-height: 400px; /* Adjusted to fit within the container */
+  overflow-y: auto; /* Allow scrolling only for options */
 }
 
 /* Individual option */
 .options-list li {
-  margin: 15px 0;
-  padding: 15px;
-  border: 1px solid #e0e0e0; /* Light border for options */
-  border-radius: 8px; /* Rounded corners for options */
+  margin: 10px 0; /* Reduced margin */
+  padding: 10px; /* Reduced padding */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
   cursor: pointer;
-  transition: all 0.3s ease; /* Smooth transition for hover effects */
-  background-color: #f8f9fa; /* Light gray background for options */
-  color: #000000; /* Black text for options */
+  transition: all 0.3s ease;
+  background-color: #f8f9fa;
+  color: #000000;
 }
 
 /* Hover effect for options */
-.options-list li:hover:not(.disabled) {
+.options-list li:hover {
   background-color: #e9ecef; /* Slightly darker gray on hover */
   transform: translateY(-2px); /* Lift the option slightly on hover */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
@@ -163,11 +102,13 @@
   border-color: #ab47bc;
 }
 
-/* Correct option */
-.options-list li.correct {
-  background-color: #81c784; /* Green background for correct option */
-  color: #ffffff; /* White text for correct option */
-  border-color: #81c784;
+/* Score Container */
+.score-container {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000000; /* Black for score text */
 }
 
 /* Incorrect option */
@@ -185,11 +126,9 @@
 
 /* Feedback message for correct/incorrect answers */
 .answer-feedback {
-  font-size: 1.2rem;
+  font-size: 1rem; /* Reduced from 1.2rem */
   font-weight: 600;
-  margin-top: 20px;
-  text-align: center;
-  animation: fadeIn 0.5s ease; /* Fade-in animation for feedback */
+  margin-bottom: 10px;
 }
 
 @keyframes fadeIn {
@@ -209,56 +148,45 @@
   color: #c62828; /* Red for incorrect feedback */
 }
 
-/* Answer and explanation text */
-.answer-text,
-.explanation-text {
-  margin-top: 25px;
-  color: #333333; /* Dark gray for secondary text */
-  font-size: 1.1rem;
-  line-height: 1.6;
-  overflow-wrap: break-word; /* Ensure long text wraps */
+.correct-answer {
+  font-size: 1rem; /* Reduced from 1.1rem */
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000000; /* Black for correct answer text */
 }
 
-.answer-text strong,
-.explanation-text strong {
-  color: #000000; /* Black for bold text */
+.explanation-text {
+  font-size: 0.9rem; /* Reduced from 1rem */
+  color: #333333; /* Dark gray for explanation text */
+  line-height: 1.6;
 }
 
 /* Quiz navigation buttons */
 .quiz-buttons {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 20px; /* Reduced margin */
   gap: 10px; /* Space between buttons */
 }
 
 /* Individual button */
 .quiz-buttons button {
-  padding: 12px 24px;
+  padding: 10px 20px; /* Reduced padding */
   cursor: pointer;
   border: none;
   background-color: #6a1b9a; /* Purple background for buttons */
   color: #ffffff; /* White text for buttons */
   border-radius: 8px; /* Rounded corners for buttons */
-  font-size: 1rem;
+  font-size: 0.9rem; /* Reduced from 1rem */
   font-weight: 600;
   transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
 /* Hover effect for buttons */
 .quiz-buttons button:hover {
-  background-color: #4a148c; /* Darker purple on hover */
+  background-color:#3700b3; /* Darker purple on hover */
   transform: translateY(-2px); /* Lift the button slightly on hover */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
-}
-
-/* Skip button styling */
-.quiz-buttons button.skip {
-  background-color: #ff9800; /* Orange for skip button */
-}
-
-.quiz-buttons button.skip:hover {
-  background-color: #f57c00; /* Darker orange on hover */
 }
 
 /* Disabled state for buttons */
@@ -270,81 +198,30 @@
   box-shadow: none; /* Remove shadow for disabled buttons */
 }
 
-/* Score container */
-.score-container {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #6a1b9a; /* Purple for score text */
-}
-/* Timer Wrapper */
-.timer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Ensures horizontal centering */
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-  margin: 5px auto; /* Moves it up */
-  padding-top: 0px; /* Reduces space above */
-  position: relative; /* Keeps it aligned correctly */
-  top: -10px; /* Moves the entire timer up */
-}
-
-/* Time Remaining Label */
-.timer-label {
-  font-size: 0.9rem;
+/* Exit Quiz Button */
+.exit-quiz-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 1.2rem; /* Reduced from 1.5rem */
   font-weight: bold;
-  color: #ff0000; /* Red */
-  margin-bottom: 2px; /* Reduce spacing between label and clock */
-  text-align: center;
+  color: #6a1b9a; /* Purple color to match the theme */
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
 
-/* Timer Box */
-.timer {
-  font-size: 0.9rem;
-  font-weight: bold;
-  color: #000000;
-  background-color: #f8f8f8;
-  padding: 4px 10px;
-  border-radius: 3px;
-  text-align: center;
-  width: 85px;
-  height: 28px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  margin: 0 auto; /* Keeps it centered */
+.exit-quiz-button:hover {
+  color: #4a148c; /* Darker purple on hover */
 }
 
-
-/* Responsive design for smaller screens */
-@media (max-width: 768px) {
-  .questions-container {
-    width: 100%; /* Full width on smaller screens */
-    height: auto; /* Allow height to adjust */
-    padding: 20px;
-    border-radius: 0;
-    box-shadow: none;
-    border: none;
-  }
-
-  .question-text {
-    font-size: 1.3rem;
-  }
-
-  .options-list li {
-    padding: 12px;
-  }
-
-  .quiz-buttons button {
-    padding: 10px 20px;
-    font-size: 0.9rem;
-  }
-
-  .score-container {
-    font-size: 1rem;
-  }
+.resources-background {
+  background-image: url("./images/pmbackground2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  width: 100vw;
 }

@@ -1,0 +1,201 @@
+/* PracticeExam.css */
+
+/* Background for Practice Exam Page */
+.practice-exam-background {
+  background-image: url("./images/pmbackground2.webp"); /* Add your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Container for Practice Exam Content */
+.practice-exam-container {
+  background: white; /* Semi-transparent white background */
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  text-align: center;
+}
+
+/* Welcome Message */
+.practice-exam-container h2 {
+  font-size: 2.5rem;
+  color: #541771; /* Purple theme */
+  margin-bottom: 20px;
+}
+
+.practice-exam-container p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Start Test Button */
+.start-test-button {
+  background-color: #541771; /* Purple theme */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.start-test-button:hover {
+  background-color: #3700b3; /* Darker purple on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+/* Test Section */
+.test-section {
+  background-color: #f5f5f5 !important; /* Light gray background for the test */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+  margin: 20px auto; /* Center the test section */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Question Container */
+.question-container {
+  background-color: white; /* White background for the question box */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Timer and Progress Bar */
+.timer-label {
+  font-size: 1.2rem;
+  color: #541771; /* Purple theme */
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  background-color: #e0e0e0; /* Light gray background for progress bar */
+  height: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.progress {
+  background-color: #541771; /* Purple theme for progress */
+  height: 100%;
+  border-radius: 5px;
+}
+
+/* Question Text */
+.question-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Options List */
+.options-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.options-list li {
+  background-color: #ffffff; /* White background for options */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0; /* Light border */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.options-list li:hover {
+  background-color: #f5f5f5; /* Light gray on hover */
+  border-color: #541771; /* Purple border on hover */
+}
+
+.options-list li.selected {
+  background-color: #541771; /* Purple background for selected option */
+  color: white;
+}
+
+/* Quiz Buttons */
+.quiz-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.quiz-buttons button {
+  background-color: #541771; /* Purple theme */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.quiz-buttons button:hover {
+  background-color: #3700b3; /* Darker purple on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.quiz-buttons button:disabled {
+  background-color: #b3b1b1; /* Gray for disabled buttons */
+  cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .practice-exam-container {
+    padding: 20px;
+  }
+
+  .practice-exam-container h2 {
+    font-size: 2rem;
+  }
+
+  .practice-exam-container p {
+    font-size: 1rem;
+  }
+
+  .start-test-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .test-section {
+    padding: 15px;
+  }
+
+  .question-container {
+    padding: 15px;
+  }
+
+  .question-text {
+    font-size: 1rem;
+  }
+
+  .options-list li {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .quiz-buttons button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}

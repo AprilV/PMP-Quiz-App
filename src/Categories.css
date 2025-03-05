@@ -44,7 +44,7 @@
 
 /* Individual Category Cards */
 .category-card {
-  background: #ffffff; /* White card background */
+  background: white; /* White card background */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   border-radius: 12px; /* Slightly rounded corners */
   padding: 25px;
@@ -59,7 +59,7 @@
   align-items: center;
   min-height: 150px; /* Ensures consistent height */
   height: 100%; /* Ensures boxes stretch evenly */
-}
+  }
 
 /* Ensure text and icon inside cards are centered */
 .category-icon {
@@ -77,11 +77,14 @@
 }
 
 /* Ensure hover effect does not break uniformity */
+/* Apply purple border effect on hover */
 .category-card:hover {
-  transform: translateY(-5px); /* Slight lift */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
-  border-color: #541771; /* Purple border on hover */
+  transform: translateY(-3px); /* Slight lift */
+  box-shadow: 0 6px 12px rgba(84, 23, 113, 0.5); /* Deeper shadow */
+  border: 2px solid #541771; /* Purple border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
+
 
 /* Ensure responsive design */
 @media (max-width: 1024px) {
@@ -111,7 +114,7 @@
   .category-card {
     padding: 20px; /* Slightly less padding for mobile */
   }
-}
+
 
 /* Optional: Add a subtle animation for the hero section */
 @keyframes fadeIn {

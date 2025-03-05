@@ -1,51 +1,102 @@
-/* General Styles */
-/* General Styles for Resources Page */
+.resources-background {
+  background-image: url("./images/pmbackground2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevent scrollbars on the page */
+  box-sizing: border-box;
+}
+
 .content {
-    background-color: whitesmoke(221, 215, 219, 0.8); /* Light semi-transparent background */
-    padding: 30px;
-    border-radius: 10px;
-    margin: 100px 0 100px 50px; /* Align to the left and add space on top and bottom */
-    max-width: 800px;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
-    text-align: left; /* Align text to the left */
-    color: #333333; /* Dark text for readability */
-  }
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 800px;
+  width: 90%;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  color: #333333;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   
-  .page-title {
-    margin-top: 20px;
-    color: #541771; /* Dark purple for the title */
-    text-align: left; /* Align title to the left */
-  }
-  
-  .study-tools {
-    margin-top: 20px;
-    font-size: 1.2rem;
-    font-family: "Franklin Gothic Medium", Arial, sans-serif;
-  }
-  
-  .study-tools a {
-    color: #541771; /* Purple theme for links */
-    text-decoration: underline;
-    transition: color 0.3s ease;
-  }
-  
-  .study-tools a:hover {
-    color: #FFEB3B; /* Yellow on hover */
-  }
-  
-  .page-title {
-    margin-top: 20px;
-    text-align: left;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-image: url("./images/pmbackground2.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    margin: 0;
-    padding: 0;
-  }
-  
+  /* Fix: Make content fit without scrolling */
+  height: auto;
+  max-height: 80vh; /* Allows some space without forcing a scroll */
+  overflow-y: auto; /* Scrolls only inside the box if absolutely needed */
+  box-sizing: border-box;
+}
+
+
+.page-title {
+  color: #541771;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px; /* Reduced margin */
+  text-align: center;
+}
+
+.study-tools {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Default study resource item */
+.study-tools li {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  border: 1px solid #e0e0e0; /* Default light border */
+  cursor: pointer; /* Indicate it's clickable */
+}
+
+/* Apply purple border effect on hover */
+.study-tools li:hover {
+  border: 2px solid #541771; /* Purple border */
+  box-shadow: 0px 6px 12px rgba(84, 23, 113, 0.5); /* Deeper shadow */
+  transform: translateY(-3px); /* Slight lift effect */
+}
+
+
+.study-tools a {
+  color: #541771;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.study-tools a:hover {
+  color: #3700b3;
+  text-decoration: underline;
+}
+
+.study-tools p {
+  margin: 5px 0 0 0;
+  font-size: 1rem;
+  color: #555555;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #777;
+  text-align: center;
+  margin-top: 30px;
+}

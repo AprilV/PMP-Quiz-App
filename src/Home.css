@@ -1,0 +1,147 @@
+/* Background for Home Page */
+.home-background {
+  background-image: url("./images/pmbackground2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.home-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(252, 250, 250, 0.0); /* Light overlay with 40% opacity */
+  z-index: 1;
+}
+
+/* Container for Home Content */
+.home-container {
+  background-color: #ffffff; /* Solid white background */
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 80%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: center;
+  position: relative;
+  z-index: 2; /* Ensure the container is above the overlay */
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Home Page Title */
+.home-title {
+  font-size: 2.5rem;
+  color: #541771; /* Purple theme for text */
+  margin-bottom: 20px;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  line-height: 1.2;
+  animation: fadeIn 1s ease-in-out 0.5s forwards;
+  opacity: 0;
+}
+
+/* Home Page Subtitle */
+.home-subtitle {
+  font-size: 1.3rem;
+  color: #333333; /* Dark gray for readability */
+  margin-bottom: 30px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  animation: fadeIn 1s ease-in-out 1s forwards;
+  opacity: 0;
+}
+
+/* Call-to-Action Button */
+.home-button {
+  background-color: #541771; /* Purple theme */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  animation: fadeIn 1s ease-in-out 1.5s forwards;
+  opacity: 0;
+}
+
+.home-button:hover {
+  background-color: #3700b3; /* Darker purple on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .home-container {
+    max-width: 500px;
+    width: 70%;
+    padding: 30px;
+  }
+
+  .home-title {
+    font-size: 2.2rem;
+  }
+
+  .home-subtitle {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    max-width: 90%;
+    width: 80%;
+    padding: 20px;
+  }
+
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .home-subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-container {
+    padding: 15px;
+    max-width: 95%;
+    width: 90%;
+  }
+
+  .home-title {
+    font-size: 1.8rem;
+  }
+
+  .home-subtitle {
+    font-size: 1rem;
+  }
+
+  .home-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}

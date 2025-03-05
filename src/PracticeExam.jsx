@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Timer from "./Timer";
 import Confetti from "./Confetti";
-import "./QuestionsPage.css";
+import "./PracticeExam.css"; // Import the new CSS file
 
 const API_URL = "https://18.189.253.207/api/questions";
 
@@ -61,16 +61,20 @@ const PracticeExam = () => {
     setQuizOver(true);
   };
 
-  if (loading) return <div className="questions-container">Loading questions...</div>;
+  if (loading) return <div className="practice-exam-container">Loading questions...</div>;
 
   if (!testStarted) {
     return (
-      <div className="questions-container">
-        <h2 style={{ color: "#6a1b9a" }}>Welcome to the PMP Practice Exam</h2>
-        <p style={{ color: "black" }}>
-          This exam consists of 180 questions and will last for 3 hours and 50 minutes. You can navigate between questions using the Next and Previous buttons. The test will automatically submit when time runs out or you can end it manually.
-        </p>
-        <button className="quiz-buttons start-test-button" style={{ backgroundColor: "#6a1b9a", color: "#ffffff" }} onClick={() => setTestStarted(true)}>Start Test</button>
+      <div className="practice-exam-background">
+        <div className="practice-exam-container">
+          <h2>Welcome to the PMP Practice Exam</h2>
+          <p>
+            This exam consists of 180 questions and will last for 3 hours and 50 minutes. You can navigate between questions using the Next and Previous buttons. The test will automatically submit when time runs out or you can end it manually.
+          </p>
+          <button className="start-test-button" onClick={() => setTestStarted(true)}>
+            Start Test
+          </button>
+        </div>
       </div>
     );
   }
@@ -122,4 +126,3 @@ const PracticeExam = () => {
 };
 
 export default PracticeExam;
-
