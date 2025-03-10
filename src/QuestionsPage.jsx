@@ -3,7 +3,8 @@ import { useParams, useNavigate } from "react-router-dom";
 import "./QuestionsPage.css";
 import Confetti from "./Confetti";
 
-const API_URL = "https://18.189.253.207/api/questions";
+const API_URL = "https://3.137.111.153/api/questions";
+
 
 // Function to shuffle an array (Fisher-Yates algorithm)
 const shuffleArray = (array) => {

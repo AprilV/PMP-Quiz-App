@@ -3,7 +3,8 @@ import Timer from "./Timer";
 import Confetti from "./Confetti";
 import "./PracticeExam.css"; // Import the new CSS file
 
-const API_URL = "https://18.189.253.207/api/questions";
+const API_URL = "https://3.137.111.153/api/questions";
+
 
 const PracticeExam = () => {
   const [questions, setQuestions] = useState([]);

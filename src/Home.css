@@ -27,7 +27,7 @@
 
 /* Container for Home Content */
 .home-container {
-  background-color: #ffffff; /* Solid white background */
+  background-color: white; /* Solid white background */
   padding: 40px;
   border-radius: 8px;
   max-width: 600px;
