@@ -15,7 +15,8 @@ function Login({ onLogin }) {
     setSuccess("");
 
     try {
-      const response = await fetch("http://3.130.60.8:3001/api/auth/login", {
+      // Update the API endpoint to use HTTPS
+      const response = await fetch("https://3.130.60.8/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),

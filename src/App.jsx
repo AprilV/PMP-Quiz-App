@@ -4,6 +4,7 @@ import {
   Routes,
   Route,
   Navigate,
+  useLocation,
 } from "react-router-dom";
 import MyAppNav from "./Nav";
 import Footer from "./Footer";
@@ -16,6 +17,21 @@ import Login from "./Login";
 import Register from "./Register";
 import ProtectedRoute from "./ProtectedRoute"; // ✅ Import ProtectedRoute
 import "./App.css";
+
+// ✅ Google Analytics Page Tracking (Added Back)
+function TrackPageView() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (window.gtag) {
+      window.gtag("config", "G-QM6RLSW31N", {
+        page_path: location.pathname,
+      });
+    }
+  }, [location]);
+
+  return null;
+}
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(
@@ -60,6 +76,7 @@ function App() {
 
   return (
     <Router basename="/PMP-Quiz-App">
+      <TrackPageView /> {/* ✅ Google Analytics Tracking Now Works */}
       <div>
         <header>
           <MyAppNav isAuthenticated={isAuthenticated} onLogout={handleLogout} />
