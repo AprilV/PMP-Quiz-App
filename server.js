@@ -9,15 +9,25 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://aprilv.github.io", // Allow requests from your frontend
+    methods: ["GET", "POST", "OPTIONS"], // Allow only necessary HTTP methods
+    allowedHeaders: ["Content-Type", "Authorization"], // Allow only necessary headers
+    credentials: true, // Allow cookies and credentials (if needed)
+  })
+);
 app.use(express.json());
+
+// Handle preflight requests
+app.options("*", cors()); // Allow preflight requests for all routes
 
 // MySQL connection setup
 const db = mysql.createConnection({
-  host: '3.130.60.8',  // EC2 MySQL Public IP
-  user: 'pmp_user',
-  password: 'Aprilv120!',
-  database: 'pmp_quiz_db'
+  host: "3.130.60.8", // EC2 MySQL Public IP
+  user: "pmp_user",
+  password: "Aprilv120!",
+  database: "pmp_quiz_db",
 });
 
 db.connect((err) => {
@@ -25,11 +35,11 @@ db.connect((err) => {
     console.error("❌ Database connection failed: ", err);
     return;
   }
-  console.log('✅ Connected to MySQL database!');
+  console.log("✅ Connected to MySQL database!");
 });
 
 // JWT Secret key (use a more secure one in production)
-const JWT_SECRET = 'your-secret-key';
+const JWT_SECRET = "your-secret-key";
 
 // Registration Route (Updated to /register)
 app.post("/register", async (req, res) => {
@@ -111,6 +121,6 @@ app.get("/api/questions/:category", (req, res) => {
 });
 
 // Start the server
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`✅ Server running at http://0.0.0.0:${PORT}`);
 });

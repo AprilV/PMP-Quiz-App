@@ -42,7 +42,7 @@
   transition: width 0.3s ease, left 0.3s ease;
 }
 
-..nav-link:hover {
+.nav-link:hover {
   color: #ffeb3b; /* Yellow highlight */
   transform: translateY(-2px); /* Slight lift */
 }

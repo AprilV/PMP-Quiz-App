@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom"; // Import Link
-import './Register.css';
+import "./Register.css";
 
 function Register() {
   const [username, setUsername] = useState("");
@@ -23,7 +23,8 @@ function Register() {
     }
 
     try {
-      const response = await fetch("http://3.130.60.8:3001/api/auth/register", {
+      const response = await fetch("https://3.130.60.8/api/auth/register", {
+
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, email, password }),

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import './Login.css'; // Ensure this path is correct
+import "./Login.css"; // Ensure this path is correct
 
 function Login({ onLogin }) {
   const [username, setUsername] = useState("");
@@ -18,8 +18,11 @@ function Login({ onLogin }) {
       // Update the API endpoint to use HTTPS
       const response = await fetch("https://3.130.60.8/api/auth/login", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json" }, // ✅ Keep only this
         body: JSON.stringify({ username, password }),
+        mode: "cors", // Ensures cross-origin requests
+        credentials: "same-origin",
+        cache: "default",
       });
 
       let data;
@@ -73,6 +76,12 @@ function Login({ onLogin }) {
             Login
           </button>
         </form>
+
+        {/* ✅ Register Link Added Below */}
+        <p className="register-link">
+          Don't have an account?{" "}
+          <a href="/PMP-Quiz-App/register">Register here</a>
+        </p>
       </div>
     </div>
   );

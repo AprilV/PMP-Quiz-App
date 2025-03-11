@@ -1,100 +1,142 @@
-/* Global styles for centering */
+/* Reset default browser styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #541771; /* Keep the same text color */
+  background-color: #f0f0f0; /* Light gray background */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Center the register container */
 body {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    min-height: 100vh; /* Full viewport height */
-    margin: 0; /* Remove default margin */
-    background-color: #f0f0f0; /* Light gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Register Container (Now Matches Login Container) */
+.register-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 80%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
-  /* Register Container */
-  .register-container {
-    width: 500px; /* Increased width for better spacing */
-    padding: 30px;
-    background-color: #ffffff; /* White background */
-    border-radius: 12px; /* Rounded corners */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    border: 1px solid #e0e0e0; /* Light border */
-    text-align: center; /* Center align text */
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  /* Register Header */
-  .register-container h1 {
-    font-size: 2rem; /* Larger font size */
-    font-weight: 700; /* Bold font */
-    color: #541771; /* Purple theme */
-    margin-bottom: 20px; /* Spacing below the header */
-  }
-  
-  /* Register Description */
-  .register-container p {
-    font-size: 1rem; /* Standard font size */
-    color: #333; /* Dark gray text */
-    margin-bottom: 20px; /* Spacing below the description */
-  }
-  
-  /* Input Fields */
-  .register-container input {
-    width: 100%; /* Full width */
-    padding: 12px; /* Comfortable padding */
-    margin: 10px 0; /* Spacing between inputs */
-    border: 1px solid #e0e0e0; /* Light border */
-    border-radius: 8px; /* Rounded corners */
-    font-size: 1rem; /* Standard font size */
-    transition: border-color 0.3s ease; /* Smooth transition */
-  }
-  
-  .register-container input:focus {
-    border-color: #541771; /* Purple border on focus */
-    outline: none; /* Remove default outline */
-  }
-  
-  /* Error Message */
-  .error-message {
-    color: #c62828; /* Red for errors */
-    font-size: 0.9rem; /* Smaller font size */
-    margin-top: 10px; /* Spacing above the error message */
-  }
-  
-  /* Register Button */
-  .register-button {
-    background-color: #541771; /* Purple theme */
-    color: white; /* White text */
-    padding: 10px 20px; /* Smaller padding */
-    font-size: 1rem; /* Standard font size */
-    font-weight: 600; /* Bold font */
-    border: none; /* Remove border */
-    border-radius: 8px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
-    margin-top: 20px; /* Spacing above the button */
-    width: auto; /* Auto width (not full width) */
-    display: inline-block; /* Center the button */
-  }
-  
-  .register-button:hover {
-    background-color: #3700b3; /* Darker purple (blue-ish) on hover */
-    transform: translateY(-2px); /* Lift the button slightly */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
-  }
-  
-  .register-button:disabled {
-    background-color: #cccccc; /* Gray for disabled state */
-    color: #666666; /* Dark gray text */
-    cursor: not-allowed; /* Disable pointer */
-    transform: none; /* Disable hover effect */
-    box-shadow: none; /* Remove shadow */
-  }
-  
-  /* Link to Login Page */
-  .register-container a {
-    color: #541771; /* Purple theme */
-    text-decoration: none; /* Remove underline */
-    font-weight: 600; /* Bold font */
-    transition: color 0.3s ease; /* Smooth transition */
-  }
-  
-  .register-container a:hover {
-    color: #3700b3; /* Darker purple (blue-ish) on hover */
-  }
+}
+
+/* Register Header (Same Style as Login) */
+.register-container h1 {
+  font-size: 2rem;
+  color: #541771;
+  margin-bottom: 20px;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  line-height: 1.2;
+}
+
+/* Register Description */
+.register-container p {
+  font-size: 1rem;
+  color: #333333;
+  margin-bottom: 30px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Input Fields (Perfectly Centered) */
+.register-container input {
+  width: calc(100% - 24px); /* Adjust width to ensure perfect alignment */
+  max-width: 450px; /* Ensures consistency with login page */
+  padding: 12px;
+  margin: 10px auto; /* Auto centers horizontally */
+  display: block; /* Forces block display for proper centering */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  text-align: left; /* Ensures text stays aligned properly */
+}
+
+.register-container input:focus {
+  border-color: #541771;
+  outline: none;
+}
+
+
+
+/* Error Message */
+.register-container .error-message {
+  color: #c62828;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+/* Register Button (Matches Login Button) */
+.register-container .register-button {
+  all: unset;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+  width: auto;
+  padding: 12px 24px;
+  background-color: #541771;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: none;
+  box-sizing: border-box;
+}
+
+.register-container .register-button:hover {
+  background-color: #3700b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.register-container .register-button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+/* Link to Login Page */
+.register-container a {
+  color: #541771;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.register-container a:hover {
+  color: #3700b3;
+}

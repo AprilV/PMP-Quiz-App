@@ -135,3 +135,20 @@ body {
 .login-container a:hover {
   color: #3700b3;
 }
+/* Register Link Below Login Form */
+.register-link {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.register-link a {
+  color: #541771;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.register-link a:hover {
+  color: #3700b3;
+}
