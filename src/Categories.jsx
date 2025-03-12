@@ -31,7 +31,11 @@ function Categories() {
             className="category-link"
           >
             <div className="category-card">
-              <span role="img" aria-label={category.name} className="category-icon">
+              <span
+                role="img"
+                aria-label={category.name}
+                className="category-icon"
+              >
                 {category.icon}
               </span>
               <h3 className="category-name">{category.name}</h3>

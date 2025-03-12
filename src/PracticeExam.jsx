@@ -58,8 +58,7 @@ const PracticeExam = () => {
     let correct = false;
 
     if (type === "multi-answer") {
-      correct =
-        selectedOptions.sort().toString() === answers.sort().toString();
+      correct = selectedOptions.sort().toString() === answers.sort().toString();
     } else if (type === "fill-in-the-blank") {
       correct = answers
         .map((ans) => ans.toLowerCase().trim())
@@ -80,7 +79,8 @@ const PracticeExam = () => {
     }
   };
 
-  if (loading) return <div className="practice-exam-container">Loading questions...</div>;
+  if (loading)
+    return <div className="practice-exam-container">Loading questions...</div>;
 
   if (!testStarted) {
     return (
@@ -89,8 +89,8 @@ const PracticeExam = () => {
           <h2>Welcome to the PMP Practice Exam</h2>
           <p>
             This exam consists of 180 questions and will last for 3 hours and 50
-            minutes. The test will automatically submit when time runs out or you
-            can end it manually.
+            minutes. The test will automatically submit when time runs out or
+            you can end it manually.
           </p>
           <button
             className="start-test-button"
@@ -116,16 +116,18 @@ const PracticeExam = () => {
           <p className="quiz-over-percentage">
             Percentage: <strong>{percentageScore}%</strong>
           </p>
-  
+
           {/* Restart Test Button */}
-          <button className="restart-test-button" onClick={() => window.location.reload()}>
+          <button
+            className="restart-test-button"
+            onClick={() => window.location.reload()}
+          >
             Restart Test
           </button>
         </div>
       </div>
     );
   }
-  
 
   const currentQuestion = questions[currentQuestionIndex];
   const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
@@ -133,22 +135,20 @@ const PracticeExam = () => {
   return (
     <div className="questions-container">
       <h2>Practice Exam</h2>
-      
+
       {/* Timer Adjusted for Better Placement */}
       <div className="timer-container">
-  <p className="timer-label">Time Remaining:</p>
-  <span className="timer-value">
-    <Timer initialTime={13800} onTimeUp={() => setQuizOver(true)} />
-  </span>
-</div>
+        <p className="timer-label">Time Remaining:</p>
+        <span className="timer-value">
+          <Timer initialTime={13800} onTimeUp={() => setQuizOver(true)} />
+        </span>
+      </div>
 
-  
       <div className="progress-bar">
         <div className="progress" style={{ width: `${progress}%` }}></div>
       </div>
-      
+
       <p className="question-text">{currentQuestion.question}</p>
-  
 
       {currentQuestion.type === "fill-in-the-blank" ? (
         <div className="fill-in-the-blank-container">

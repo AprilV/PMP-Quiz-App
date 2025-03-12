@@ -25,14 +25,13 @@
   color: #333333;
   border: 1px solid #e0e0e0;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-  
+
   /* Fix: Make content fit without scrolling */
   height: auto;
   max-height: 80vh; /* Allows some space without forcing a scroll */
   overflow-y: auto; /* Scrolls only inside the box if absolutely needed */
   box-sizing: border-box;
 }
-
 
 .page-title {
   color: #541771;
@@ -72,7 +71,6 @@
   box-shadow: 0px 6px 12px rgba(84, 23, 113, 0.5); /* Deeper shadow */
   transform: translateY(-3px); /* Slight lift effect */
 }
-
 
 .study-tools a {
   color: #541771;

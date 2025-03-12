@@ -23,7 +23,8 @@ a:hover {
 }
 
 /* Global Styles */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -34,14 +35,26 @@ html, body {
 }
 
 /* Prevent non-interactive elements from being focusable */
-div, span, p, h1, h2, h3, h4, h5, h6 {
+div,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   outline: none;
   user-select: none; /* Prevent text selection */
   cursor: default; /* Default cursor */
 }
 
 /* Allow focus on interactive elements */
-button, input, textarea, a, [tabindex]:not([tabindex="-1"]) {
+button,
+input,
+textarea,
+a,
+[tabindex]:not([tabindex="-1"]) {
   outline: none; /* Optional: Remove default focus outline */
   cursor: pointer; /* Pointer cursor for clickable elements */
 }

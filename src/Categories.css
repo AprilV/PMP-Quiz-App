@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Arial', sans-serif; /* Modern font */
+  font-family: "Arial", sans-serif; /* Modern font */
 }
 
 /* Hero Section */
@@ -59,7 +59,7 @@
   align-items: center;
   min-height: 150px; /* Ensures consistent height */
   height: 100%; /* Ensures boxes stretch evenly */
-  }
+}
 
 /* Ensure text and icon inside cards are centered */
 .category-icon {
@@ -85,11 +85,13 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
-
 /* Ensure responsive design */
 @media (max-width: 1024px) {
   .categories-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns per row for medium screens */
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* 2 columns per row for medium screens */
     grid-template-rows: repeat(4, auto); /* 4 rows */
     gap: 30px; /* Adjusted gap for smaller screens */
   }
@@ -103,18 +105,17 @@
   }
 }
 
-  .categories-hero h1 {
-    font-size: 2rem; /* Smaller heading for mobile */
-  }
+.categories-hero h1 {
+  font-size: 2rem; /* Smaller heading for mobile */
+}
 
-  .categories-hero p {
-    font-size: 1rem; /* Smaller paragraph text for mobile */
-  }
+.categories-hero p {
+  font-size: 1rem; /* Smaller paragraph text for mobile */
+}
 
-  .category-card {
-    padding: 20px; /* Slightly less padding for mobile */
-  }
-
+.category-card {
+  padding: 20px; /* Slightly less padding for mobile */
+}
 
 /* Optional: Add a subtle animation for the hero section */
 @keyframes fadeIn {

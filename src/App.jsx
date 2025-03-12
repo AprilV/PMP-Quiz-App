@@ -15,19 +15,48 @@ import PracticeExam from "./PracticeExam";
 import QuestionsPage from "./QuestionsPage";
 import Login from "./Login";
 import Register from "./Register";
-import ProtectedRoute from "./ProtectedRoute"; // ✅ Import ProtectedRoute
+import ProtectedRoute from "./ProtectedRoute";
 import "./App.css";
 
-// ✅ Google Analytics Page Tracking (Added Back)
+// ✅ Google Analytics Initialization
+function initGoogleAnalytics() {
+  if (!window.gtag) {
+    const script = document.createElement("script");
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-QM6RLSW31N";
+    script.async = true;
+    document.head.appendChild(script);
+
+    script.onload = () => {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      window.gtag = gtag;
+      gtag("js", new Date());
+      gtag("config", "G-QM6RLSW31N");
+      console.log("✅ Google Analytics Initialized");
+    };
+  }
+}
+
+// ✅ Google Analytics Page Tracking (Fixed)
 function TrackPageView() {
   const location = useLocation();
 
   useEffect(() => {
-    if (window.gtag) {
-      window.gtag("config", "G-QM6RLSW31N", {
-        page_path: location.pathname,
-      });
-    }
+    const waitForGA = setInterval(() => {
+      if (window.gtag) {
+        console.log("✅ Google Analytics is now available.");
+        window.gtag("config", "G-QM6RLSW31N", {
+          page_path: location.pathname,
+        });
+        clearInterval(waitForGA);
+      } else {
+        console.warn("⏳ Waiting for Google Analytics to initialize...");
+      }
+    }, 500); // Check every 500ms
+
+    return () => clearInterval(waitForGA);
   }, [location]);
 
   return null;
@@ -38,30 +67,16 @@ function App() {
     !!localStorage.getItem("token")
   );
 
-  // Log isAuthenticated state
-  console.log("🔍 isAuthenticated:", isAuthenticated); // Debugging line
-
   useEffect(() => {
+    initGoogleAnalytics(); // ✅ Ensures GA is initialized
     const checkAuth = () => {
       const token = localStorage.getItem("token");
-      setIsAuthenticated(!!token); // ✅ Ensures React state updates properly
+      setIsAuthenticated(!!token);
     };
 
-    checkAuth(); // ✅ Run immediately on page load
+    checkAuth();
     window.addEventListener("storage", checkAuth);
-
-    // Clear token on page unload (close or refresh)
-    const handleBeforeUnload = () => {
-      localStorage.removeItem("token"); // Clear token when the app is closed
-    };
-
-    window.addEventListener("beforeunload", handleBeforeUnload);
-
-    // Cleanup
-    return () => {
-      window.removeEventListener("storage", checkAuth);
-      window.removeEventListener("beforeunload", handleBeforeUnload);
-    };
+    return () => window.removeEventListener("storage", checkAuth);
   }, []);
 
   const handleLogin = (token) => {
@@ -76,7 +91,7 @@ function App() {
 
   return (
     <Router basename="/PMP-Quiz-App">
-      <TrackPageView /> {/* ✅ Google Analytics Tracking Now Works */}
+      <TrackPageView />
       <div>
         <header>
           <MyAppNav isAuthenticated={isAuthenticated} onLogout={handleLogout} />
@@ -86,8 +101,6 @@ function App() {
           <Route path="/login" element={<Login onLogin={handleLogin} />} />
           <Route path="/register" element={<Register />} />
           <Route path="/resources" element={<Resources />} />
-
-          {/* ✅ Pass `isAuthenticated` to `ProtectedRoute` */}
           <Route
             path="/categories"
             element={

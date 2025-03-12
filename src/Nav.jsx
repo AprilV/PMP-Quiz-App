@@ -59,8 +59,20 @@ function MyAppNav() {
       >
         <g fill="none" stroke="white" strokeWidth="20">
           <ellipse cx="420.9" cy="296.5" rx="120.9" ry="296.5" />
-          <ellipse cx="420.9" cy="296.5" rx="120.9" ry="296.5" transform="rotate(60,420.9,296.5)" />
-          <ellipse cx="420.9" cy="296.5" rx="120.9" ry="296.5" transform="rotate(-60,420.9,296.5)" />
+          <ellipse
+            cx="420.9"
+            cy="296.5"
+            rx="120.9"
+            ry="296.5"
+            transform="rotate(60,420.9,296.5)"
+          />
+          <ellipse
+            cx="420.9"
+            cy="296.5"
+            rx="120.9"
+            ry="296.5"
+            transform="rotate(-60,420.9,296.5)"
+          />
         </g>
         <circle cx="420.9" cy="296.5" r="35" fill="white" />
       </motion.svg>

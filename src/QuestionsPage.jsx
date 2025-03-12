@@ -136,12 +136,6 @@ const QuestionsPage = () => {
             >
               Try Again
             </button>
-            <button
-              className="exit-quiz-button"
-              onClick={() => navigate("/categories")}
-            >
-              Back to Categories
-            </button>
           </div>
         </div>
       </div>
@@ -330,17 +324,16 @@ const QuestionsPage = () => {
       </div>
 
       <div className="quiz-buttons">
-  {!showAnswer ? (
-    <button onClick={handleSubmitAnswer}>Submit Answer</button>
-  ) : currentQuestionIndex === filteredQuestions.length - 1 ? (
-    <button onClick={() => setQuizOver(true)} className="end-test-button">
-      End Test
-    </button>
-  ) : (
-    <button onClick={handleNext}>Next</button>
-  )}
-</div>
-
+        {!showAnswer ? (
+          <button onClick={handleSubmitAnswer}>Submit Answer</button>
+        ) : currentQuestionIndex === filteredQuestions.length - 1 ? (
+          <button onClick={() => setQuizOver(true)} className="end-test-button">
+            End Test
+          </button>
+        ) : (
+          <button onClick={handleNext}>Next</button>
+        )}
+      </div>
     </div>
   );
 };

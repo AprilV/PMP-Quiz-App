@@ -43,7 +43,10 @@ function Resources() {
       <div className="content">
         <h1 className="page-title">PMP Test Categories</h1>
         <p className="intro-text">
-          <strong>Here are some helpful materials and tips to prepare for the PMP exam (PMBOK 7th Edition).</strong>
+          <strong>
+            Here are some helpful materials and tips to prepare for the PMP exam
+            (PMBOK 7th Edition).
+          </strong>
         </p>
         <ul className="study-tools">
           {resources.map((resource, index) => (

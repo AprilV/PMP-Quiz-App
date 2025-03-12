@@ -1,5 +1,6 @@
 /* Reset default browser styles */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -84,8 +85,6 @@ body {
   border-color: #541771;
   outline: none;
 }
-
-
 
 /* Error Message */
 .register-container .error-message {

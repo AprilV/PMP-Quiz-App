@@ -3,7 +3,16 @@ import Confetti from "react-confetti";
 
 export default function ConfettiComponent() {
   return (
-    <div style={{ position: "fixed", top: 0, left: 0, width: "100%", height: "100%", pointerEvents: "none" }}>
+    <div
+      style={{
+        position: "fixed",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        pointerEvents: "none",
+      }}
+    >
       <Confetti
         width={window.innerWidth}
         height={window.innerHeight}

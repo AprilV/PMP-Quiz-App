@@ -23,7 +23,7 @@ const newQuestions = oldQuestions.map((q) => {
 
   // Normalize categories into "topics"
   let rawTopics = q.categories || [];
-  
+
   // Ensure topics match the exact category list
   const finalTopics = rawTopics
     .map((topic) => categoryMap[topic] || topic) // Standardize category names

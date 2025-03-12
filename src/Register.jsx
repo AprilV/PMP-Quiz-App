@@ -24,7 +24,6 @@ function Register() {
 
     try {
       const response = await fetch("https://3.130.60.8/api/auth/register", {
-
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, email, password }),
