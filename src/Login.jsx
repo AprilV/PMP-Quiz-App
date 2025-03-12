@@ -9,19 +9,24 @@ function Login({ onLogin }) {
   const [success, setSuccess] = useState("");
   const navigate = useNavigate();
 
+  // ✅ Dynamically set API endpoint for local & deployed environments
+  const API_BASE =
+    import.meta.env.MODE === "development"
+      ? "http://localhost:3001"
+      : "https://3.130.60.8";
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
     setSuccess("");
 
     try {
-      // Update the API endpoint to use HTTPS
-      const response = await fetch("https://3.130.60.8/api/auth/login", {
+      const response = await fetch(`${API_BASE}/api/auth/login`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" }, // ✅ Keep only this
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),
-        mode: "cors", // Ensures cross-origin requests
-        credentials: "same-origin",
+        mode: "cors",
+        credentials: "include", // ✅ Ensures authentication works properly
         cache: "default",
       });
 
@@ -80,7 +85,7 @@ function Login({ onLogin }) {
         {/* ✅ Register Link Added Below */}
         <p className="register-link">
           Don't have an account?{" "}
-          <a href="/PMP-Quiz-App/register">Register here</a>
+          <a href="/register">Register here</a>
         </p>
       </div>
     </div>

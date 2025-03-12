@@ -5,7 +5,6 @@ import Confetti from "./Confetti";
 
 const API_URL = "https://3.137.111.153/api/questions";
 
-
 // Function to shuffle an array (Fisher-Yates algorithm)
 const shuffleArray = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
@@ -262,20 +261,16 @@ const QuestionsPage = () => {
         </div>
       ) : type === "multi-answer" ? (
         <ul className="options-list">
-          {options.map((option, index) => (
-            <li
-              key={index}
-              className={`option ${
-                selectedOptions.includes(index) ? "selected" : ""
-              } ${showAnswer && answers.includes(index) ? "correct" : ""}`}
-              onClick={() => handleOptionSelect(index)}
-            >
-              <input
-                type="checkbox"
-                checked={selectedOptions.includes(index)}
-                onChange={() => handleOptionSelect(index)}
-              />
-              {option}
+          {options.map((option) => (
+            <li key={option} className="option">
+              <label>
+                <input
+                  type="checkbox"
+                  checked={selectedOptions.includes(option)}
+                  onChange={() => handleOptionSelect(option)}
+                />
+                {option}
+              </label>
             </li>
           ))}
         </ul>
@@ -335,19 +330,17 @@ const QuestionsPage = () => {
       </div>
 
       <div className="quiz-buttons">
-        <button onClick={handlePrev} disabled={currentQuestionIndex === 0}>
-          Previous
-        </button>
-        {!showAnswer ? (
-          <button onClick={handleSubmitAnswer}>Submit Answer</button>
-        ) : currentQuestionIndex === filteredQuestions.length - 1 ? (
-          <button onClick={() => setQuizOver(true)} className="end-test-button">
-            End Test
-          </button>
-        ) : (
-          <button onClick={handleNext}>Next</button>
-        )}
-      </div>
+  {!showAnswer ? (
+    <button onClick={handleSubmitAnswer}>Submit Answer</button>
+  ) : currentQuestionIndex === filteredQuestions.length - 1 ? (
+    <button onClick={() => setQuizOver(true)} className="end-test-button">
+      End Test
+    </button>
+  ) : (
+    <button onClick={handleNext}>Next</button>
+  )}
+</div>
+
     </div>
   );
 };

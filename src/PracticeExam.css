@@ -79,9 +79,18 @@
 
 /* Timer and Progress Bar */
 .timer-label {
-  font-size: 1.2rem;
-  color: #541771; /* Purple theme */
-  margin-bottom: 10px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Reducing space between label and timer */
+}
+
+.timer-value {
+  font-weight: normal;
 }
 
 .progress-bar {
@@ -235,6 +244,26 @@
   .fancy-score-display {
     animation: fadeIn 0.5s ease-in-out;
   }
+
+  .restart-test-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #6a1b9a; /* Purple background */
+    color: #ffffff; /* White text */
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .restart-test-button:hover {
+    background-color: #3700b3; /* Darker purple */
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
   
   @keyframes fadeIn {
     from { opacity: 0; }

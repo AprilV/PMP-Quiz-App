@@ -164,10 +164,11 @@ body {
 /* Quiz navigation buttons */
 .quiz-buttons {
   display: flex;
-  justify-content: space-between;
-  margin-top: 20px; /* Reduced margin */
-  gap: 10px; /* Space between buttons */
+  justify-content: center; /* Centers buttons horizontally */
+  margin-top: 20px;
+  gap: 10px;
 }
+
 
 /* Individual button */
 .quiz-buttons button {
