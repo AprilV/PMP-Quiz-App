@@ -220,10 +220,7 @@ const QuestionsPage = () => {
 
   return (
     <div className="questions-container">
-      {/* Exit Quiz Button (X) in the upper-right corner */}
-      <button className="exit-quiz-button" onClick={handleExitQuiz}>
-        X
-      </button>
+      {/* Removed the Exit Quiz Button (X) in the upper-right corner */}
 
       <h2>
         {category
